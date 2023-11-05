@@ -12,11 +12,11 @@ const Navbar = () => {
     setNav(!nav);
   };
   return (
-    
+    <div className='lg:px-[2rem] px-[1.7rem] py-[1rem] lg:py-[1.1rem]'>
     <div className="rounded-full border border-gray-800 bg-grey-800 mt-3">
       <div style={{display: 'flex',padding: '14px 24px',justifyContent: 'space-between',alignItems: 'center'}}>
         {/* Images */}
-        <div className="flex items-center"> 
+        <div className="flex items-center "> 
           <img className='w-[26px] h-[26px]  lg:w-[30px]  lg:h-[30px]' src={Shape} alt='logo' />
           <img className='w-[72.583px] h-[11.91px] lg:w-[83.75px] lg:h-[13.75px] flex-shrink-0' src={Bank} alt='logo' />
         </div>
@@ -95,6 +95,7 @@ const Navbar = () => {
           </li>
         </ul>
       </div>
+    </div>
     </div>
 
   );
