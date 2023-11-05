@@ -72,7 +72,7 @@ const Navbar = () => {
       <ul className="flex font-medium text-white text-base font-lexend leading-normal space-x-6">
           <li>
             <Link to="/bank/" className='font-lexend'>
-              Home
+              Homee
             </Link>
           </li>
 
