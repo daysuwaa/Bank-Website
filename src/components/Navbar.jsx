@@ -12,7 +12,7 @@ const Navbar = () => {
     setNav(!nav);
   };
   return (
-    
+   
     <div className="rounded-full border border-gray-800 bg-grey-800 mt-3">
       <div style={{display: 'flex',padding: '14px 24px',justifyContent: 'space-between',alignItems: 'center'}}>
         {/* Images */}
@@ -64,39 +64,49 @@ const Navbar = () => {
         {nav ? 
         <CgClose size={30}  /> 
         :<img src={Menu} alt="menu" style={{borderRadius: '82px', display: 'flex', padding: '6px 14px', gap:'10px', alignItems: 'center',  background: 'var(--green-60, #CAFF33)'}} />
-}
+        }
         </div>
       </div>
 
       {/* small screenss */}
-      <div className={nav ? 'fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-black ease-in-out duration-500' : 'fixed left-[-100%] '}>
-      <ul className="flex font-medium text-white text-base font-lexend leading-normal space-x-6">
-          <li>
-            <Link to="/bank/" className='font-lexend'>
-              Home
-            </Link>
-          </li>
+      <div style={{ position: 'relative' }}>
+        {nav && (
+          <div style={{ position: 'absolute', top: '100%', left: 0, width: '100%', background: 'transparent', overflow:'hidden' }}>
+          <ul style={{display:'grid', lineHeight:'50px', padding:'5px 50px', position:'fixed', top:'5rem', left:'0', width:'100%', }}className="font-medium text-white text-base font-lexend leading-normal space-x">
+            <li>
+              <Link to="/bank/" className='font-lexend'>
+                Home
+              </Link>
+            </li>
 
-          <li>
-            <Link to="/bank/careers" className='font-lexend'>
-              Careers
-            </Link>
-          </li>
+            <li>
+              <Link to="/bank/careers" className='font-lexend'>
+                Careers
+              </Link>
+            </li>
 
-          <li>
-            <Link to="/bank/about" className='font-lexend'>
-              About
-            </Link>
-          </li>
+            <li>
+              <Link to="/bank/about" className='font-lexend'>
+                About
+              </Link>
+            </li>
 
-          <li>
-            <Link to="/bank/security" className='font-lexend'>
-              Security
-            </Link>
-          </li>
-        </ul>
-      </div>
+            <li>
+              <Link to="/bank/security" className='font-lexend'>
+                Security
+              </Link>
+            </li>
+          </ul>
+        </div>
+        
+          
+        )}
     </div>
+    </div>
+    
+    
+  
+    
 
   );
 };
