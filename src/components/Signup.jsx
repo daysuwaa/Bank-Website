@@ -52,27 +52,27 @@ const Signup = () => {
 </div>
 {/* sign up and log in buttons */}
 <div style={{display:'grid', padding:'14px 24px', alignItems:'center', gap:'10px', alignSelf:'stretch' }}className="justify-center items-center ">
-  <button style={{borderRadius:'63px', background:'#CAFF33'}} className=' w-[340px] h-[49px] lg:w-[404px] lg:h-[49px]'>
+  <button style={{borderRadius:'63px', background:'#CAFF33'}} className=' w-[300px] h-[49px] lg:w-[404px] lg:h-[49px]'>
     <Link to='/bank/signup' style={{color:'#262626', textAlign:'center', fontFamily:'lexend', fontSize:'14px', fontWeight:'400', lineHeight:'150%'}} >
     Sign Up
     </Link>
     
   </button>
-  <button style={{borderRadius:'63px', border: '1px solid var(--grey-20, #333)', background:'#262626', marginTop:'10px'}} className=' w-[340px] h-[49px] lg:w-[404px] lg:h-[49px]'>
+  <button style={{borderRadius:'63px', border: '1px solid var(--grey-20, #333)', background:'#262626', marginTop:'10px'}} className=' w-[300px] h-[49px] lg:w-[404px] lg:h-[49px]'>
     <Link to='/bank/login' style={{color:'white', textAlign:'center', fontFamily:'lexend', fontSize:'14px', fontWeight:'400', lineHeight:'150%'}}>
     Login
    </Link>
   </button>
 </div>
 
-  <div className="flex items-center ml-[2rem] lg:ml-[31rem]">
-      <div style={{width:'110px', height:'1px', background: '#B3B3B3'}}></div>
-      <div className="mx-2 text-white">Or continue with</div>
-      <div style={{width:'129px', height:'1px', background: '#B3B3B3'}}></div>
+  <div className="flex items-center mx-[2rem] lg:mx-[31rem] ">
+      <div style={{ height:'1px', background: '#B3B3B3'}} ></div>
+      <div className=" text-white">Or continue with</div>
+      <div style={{height:'1px', background: '#B3B3B3'}} ></div>
     </div>
 
     {/* icons */}
-    <div className='flex justify-center items-center gap-[20px] p-[24px]'>
+    <div className='flex justify-center items-center gap-[20px] p-[24px] '>
       <img src={Gmail} alt='gmail' style={{display:'flex', padding:'14px', borderRadius:'50px', border:'1px solid #CAFF33', background: 'linear-gradient(180deg, rgba(202, 255, 51, 0.10) -66.22%, rgba(202, 255, 51, 0.00) 85.46%'}}/>
       <img src={Facebook} alt='facebook'style={{display:'flex', padding:'14px', borderRadius:'50px', border:'1px solid #CAFF33', background: 'linear-gradient(180deg, rgba(202, 255, 51, 0.10) -66.22%, rgba(202, 255, 51, 0.00) 85.46%'}}/>
       <img src={Apple} alt='apple' style={{display:'flex', padding:'14px', borderRadius:'50px', border:'1px solid #CAFF33', background: 'linear-gradient(180deg, rgba(202, 255, 51, 0.10) -66.22%, rgba(202, 255, 51, 0.00) 85.46%'}}/>
