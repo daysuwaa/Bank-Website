@@ -2,9 +2,9 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 // import Abstract from'../assets/Abstract Design.png'
 // import Omo from'../assets/Icon.png'
-// import Gmail from'../assets/Icon-2.png'
-// import Facebook from '../assets/Icon-3.png'
-// import Apple from '../assets/Icon-4.png'
+import Gmail from'../assets/Icon-2.png'
+import Facebook from '../assets/Icon-3.png'
+import Apple from '../assets/Icon-4.png'
 //  import Eye from '../assets/Icon-5.png'
 
 const Signup = () => {
@@ -56,6 +56,20 @@ const Signup = () => {
    </Link>
   </button>
 </div>
+
+  <div className="flex items-center ml-[3rem] lg:ml-[33rem]">
+      <div style={{width:'129px', height:'1px', background: '#B3B3B3'}}></div>
+      <div className="mx-2 text-white">Or continue with</div>
+      <div style={{width:'129px', height:'1px', background: '#B3B3B3'}}></div>
+    </div>
+
+    {/* icons */}
+    <div className='flex justify-center items-center gap-[20px] p-[24px]'>
+      <img src={Gmail} alt='gmail' style={{display:'flex', padding:'14px', borderRadius:'50px', border:'1px solid #CAFF33', background: 'linear-gradient(180deg, rgba(202, 255, 51, 0.10) -66.22%, rgba(202, 255, 51, 0.00) 85.46%'}}/>
+      <img src={Facebook} alt='facebook'style={{display:'flex', padding:'14px', borderRadius:'50px', border:'1px solid #CAFF33', background: 'linear-gradient(180deg, rgba(202, 255, 51, 0.10) -66.22%, rgba(202, 255, 51, 0.00) 85.46%'}}/>
+      <img src={Apple} alt='apple' style={{display:'flex', padding:'14px', borderRadius:'50px', border:'1px solid #CAFF33', background: 'linear-gradient(180deg, rgba(202, 255, 51, 0.10) -66.22%, rgba(202, 255, 51, 0.00) 85.46%'}}/>
+
+    </div>
 
 
 
