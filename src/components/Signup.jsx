@@ -26,39 +26,39 @@ const Signup = () => {
       type="text"
       placeholder="Enter First Name"
       style={{ color: '#59595A', fontFamily: 'lexend', fontSize: '16px', fontStyle: 'normal', fontWeight: '300', lineHeight: '150%', borderRadius: '88px', border: '1px solid #262626', background: '#1A1A1A',  padding: '20px' }}
-      className='w-[320px] h-[58px] lg:w-[400px] lg:h-[64px]'
+      className='w-[290px] h-[58px] lg:w-[400px] lg:h-[64px]'
     />
     <input
       type="text"
       placeholder="Enter Last Name"
       style={{ color: '#59595A', fontFamily: 'lexend', fontSize: '16px', fontStyle: 'normal', fontWeight: '300', lineHeight: '150%', borderRadius: '88px', border: '1px solid #262626', background: '#1A1A1A',  padding: '20px' }}
-      className='w-[320px] h-[58px] lg:w-[400px] lg:h-[64px]'
+      className='w-[290px] h-[58px] lg:w-[400px] lg:h-[64px]'
     />
     <input
       type="text"
       placeholder="Enter your Email"
       style={{ color: '#59595A', fontFamily: 'lexend', fontSize: '16px', fontStyle: 'normal', fontWeight: '300', lineHeight: '150%', borderRadius: '88px', border: '1px solid #262626', background: '#1A1A1A',  padding: '20px' }}
-      className='w-[320px] h-[58px] lg:w-[400px] lg:h-[64px]'
+      className='w-[290px] h-[58px] lg:w-[400px] lg:h-[64px]'
     />
     <div>
     <input
       type="text"
       placeholder="Enter your password"
       style={{ color: '#59595A', fontFamily: 'lexend', fontSize: '16px', fontStyle: 'normal', fontWeight: '300', lineHeight: '150%', borderRadius: '88px', border: '1px solid #262626', background: '#1A1A1A',  padding: '20px' }}
-      className='w-[320px] h-[58px] lg:w-[400px] lg:h-[64px]'
+      className='w-[290px] h-[58px] lg:w-[400px] lg:h-[64px]'
     />
     </div>
   </div>
 </div>
 {/* sign up and log in buttons */}
 <div style={{display:'grid', padding:'14px 24px', alignItems:'center', gap:'10px', alignSelf:'stretch' }}className="justify-center items-center ">
-  <button style={{borderRadius:'63px', background:'#CAFF33'}} className=' w-[390px] h-[49px] lg:w-[404px] lg:h-[49px]'>
+  <button style={{borderRadius:'63px', background:'#CAFF33'}} className=' w-[340px] h-[49px] lg:w-[404px] lg:h-[49px]'>
     <Link to='/bank/signup' style={{color:'#262626', textAlign:'center', fontFamily:'lexend', fontSize:'14px', fontWeight:'400', lineHeight:'150%'}} >
     Sign Up
     </Link>
     
   </button>
-  <button style={{borderRadius:'63px', border: '1px solid var(--grey-20, #333)', background:'#262626', marginTop:'10px'}} className=' w-[390px] h-[49px] lg:w-[404px] lg:h-[49px]'>
+  <button style={{borderRadius:'63px', border: '1px solid var(--grey-20, #333)', background:'#262626', marginTop:'10px'}} className=' w-[340px] h-[49px] lg:w-[404px] lg:h-[49px]'>
     <Link to='/bank/login' style={{color:'white', textAlign:'center', fontFamily:'lexend', fontSize:'14px', fontWeight:'400', lineHeight:'150%'}}>
     Login
    </Link>
