@@ -93,6 +93,16 @@ const Navbar = () => {
               Security
             </Link>
           </li>
+          <li>
+            <Link to="/bank/signup" className='font-lexend hover:underline' style={{color:'#CAFF33'}}>
+             Sign Up
+            </Link>
+          </li>
+          <li>
+            <Link to="/bank/login" className='font-lexend hover:underline'>
+              Login
+            </Link>
+          </li>
         </ul>
       </div>
     </div>
