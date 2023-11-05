@@ -56,9 +56,9 @@ const Login = () => {
 </div>
 
   <div className="flex items-center justify-center  ">
-      <div style={{ height:'1px', background: '#B3B3B3', width:'100px'}} ></div>
+      <div style={{ height:'1px', background: '#B3B3B3', width:'80px'}} ></div>
       <div className=" text-white"> Or continue with </div>
-      <div style={{height:'1px', background: '#B3B3B3', width:'100px'}} ></div>
+      <div style={{height:'1px', background: '#B3B3B3', width:'80px'}} ></div>
     </div>
 
     {/* icons */}
