@@ -60,6 +60,7 @@ const Navbar = () => {
           </button>
         </div>
 
+
         <div onClick={handleNav} className='block md:hidden'>
         {nav ? 
         <CgClose size={30} className="text-white"  /> 

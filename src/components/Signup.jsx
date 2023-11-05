@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-// import Abstract from'../assets/Abstract Design.png'
+import Abstract from'../assets/Abstract Design.png'
 // import Omo from'../assets/Icon.png'
 import Gmail from'../assets/Icon-2.png'
 import Facebook from '../assets/Icon-3.png'
@@ -10,11 +10,14 @@ import Apple from '../assets/Icon-4.png'
 const Signup = () => {
   
   return (
-    <div>
-     <div style={{display:'flex', width:'1064px', padding:'80px 200px', flexDirection:'column', alignItems:'flex-start', gap:'60px'}}/>
+    <div className='px-9 m-0' >
+     
+    <div className='' style={{backgroundColor:'#1A1A1A', border: '1px solid #262626' ,borderRadius: '50px'}}>
+    <img src={Abstract} alt='ab' className='lg:w-[256px] lg:h-[243px]' style={{alignSelf:'stretch', width:'167px', height:'159px', position:'absolute', right:'35px', fill: 'radial-gradient(152.24% 143.75% at 103.26% 0%, rgba(25, 25, 25, 0.30) 20.29%, rgba(202, 255, 51, 0.30) 34.91%, rgba(25, 25, 25, 0.30) 60.69%)' }}/>
+     <div style={{display:'flex', padding:'80px 200px', flexDirection:'column', alignItems:'flex-start', gap:'60px'}}/>
      <div style={{borderRadius:'16px', backgroundBlendMode:'overlay, normal'}}>
-     <h1 style={{color:'#CAFF33', textAlign:'center', fontSize:'38px', fontStyle:'normal', fontWeight:'500', lineHeight:'normal', fontFamily:'lexend'}}>Sign Up</h1>
-     <p style={{color: 'var(--grey-75, #BFBFBF)',textAlign: 'center',fontFamily: 'Lexend',fontSize: '16px',fontStyle: 'normal',fontWeight: '300',lineHeight: 'normal' ,paddingTop:'9px'}}>
+     <h1 style={{color:'#CAFF33', textAlign:'center', fontStyle:'normal', fontWeight:'500', lineHeight:'normal', fontFamily:'lexend'}} className='text-3xl lg:text-4xl'>Sign Up</h1>
+     <p style={{color: 'var(--grey-75, #BFBFBF)',textAlign: 'center',fontFamily: 'Lexend',fontStyle: 'normal',fontWeight: '300',lineHeight: 'normal' ,paddingTop:'9px'}} className='text-md lg:text-lg px-12'>
       Join our community today! Create an account to unlock exclusive features and personalized experiences.</p>
 
       <div className="flex justify-center items-center h-full">
@@ -74,6 +77,7 @@ const Signup = () => {
 
 
      </div>
+    </div>
     </div>
   )
 }
