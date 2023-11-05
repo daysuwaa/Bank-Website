@@ -62,13 +62,13 @@ const Navbar = () => {
 
         <div onClick={handleNav} className='block md:hidden'>
         {nav ? 
-        <CgClose size={30}  /> 
+        <CgClose size={30} className="text-white"  /> 
         :<img src={Menu} alt="menu" style={{borderRadius: '82px', display: 'flex', padding: '6px 14px', gap:'10px', alignItems: 'center',  background: 'var(--green-60, #CAFF33)'}} />
 }
         </div>
       </div>
       {/* small screenss */}
-      <div className={nav ? 'fixed left-0 top-[4.5rem] w-[60%] h-full border-r border-r-gray-900 bg-neutral-900 ease-in-out duration-500' : 'fixed left-[-100%] '}>
+      <div className={nav ? 'fixed left-0 top-[5.5rem] w-[60%] h-full border-r border-r-gray-900 bg-neutral-900 ease-in-out duration-500' : 'fixed left-[-100%] '}>
       <ul style={{lineHeight:'50px'}}className="grid font-medium text-white text-base font-lexend leading-normal space-x-6 mt-6 ">
           <li>
             <Link to="/bank/" className='font-lexend px-6 hover:underline'>
