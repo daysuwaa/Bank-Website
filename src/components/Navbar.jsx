@@ -55,7 +55,7 @@ const Navbar = () => {
           </Link>
           <button>
           <Link to="/bank/login" style={{ background: 'var(--green-60, #CAFF33)'}} className='rounded-full py-[12px] px-[24px] space-x-2.5 gap-2.5 items-center'>
-            Login
+            Logim
           </Link>
           </button>
         </div>
