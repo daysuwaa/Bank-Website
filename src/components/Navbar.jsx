@@ -67,7 +67,6 @@ const Navbar = () => {
 }
         </div>
       </div>
-
       {/* small screenss */}
       <div className={nav ? 'fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-black ease-in-out duration-500' : 'fixed left-[-100%] '}>
       <ul className="flex font-medium text-white text-base font-lexend leading-normal space-x-6">
