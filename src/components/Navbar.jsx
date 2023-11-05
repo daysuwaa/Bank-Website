@@ -68,28 +68,28 @@ const Navbar = () => {
         </div>
       </div>
       {/* small screenss */}
-      <div className={nav ? 'fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-black ease-in-out duration-500' : 'fixed left-[-100%] '}>
-      <ul className="flex font-medium text-white text-base font-lexend leading-normal space-x-6">
+      <div className={nav ? 'fixed left-0 top-[4.5rem] w-[60%] h-full border-r border-r-gray-900 bg-neutral-900 ease-in-out duration-500' : 'fixed left-[-100%] '}>
+      <ul style={{lineHeight:'50px'}}className="grid font-medium text-white text-base font-lexend leading-normal space-x-6 mt-6 ">
           <li>
-            <Link to="/bank/" className='font-lexend'>
+            <Link to="/bank/" className='font-lexend px-6 hover:underline'>
               Home
             </Link>
           </li>
 
           <li>
-            <Link to="/bank/careers" className='font-lexend'>
+            <Link to="/bank/careers" className='font-lexend hover:underline'>
               Careers
             </Link>
           </li>
 
           <li>
-            <Link to="/bank/about" className='font-lexend'>
+            <Link to="/bank/about" className='font-lexend hover:underline'>
               About
             </Link>
           </li>
 
           <li>
-            <Link to="/bank/security" className='font-lexend'>
+            <Link to="/bank/security" className='font-lexend hover:underline'>
               Security
             </Link>
           </li>
