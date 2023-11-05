@@ -12,7 +12,7 @@ import ErrorPage from './components/ErrorPage';
 
 function App() {
   return (
-    <Router basename='/bank-website'>
+    <Router basename='/Bank-Website'>
     <Navbar/>
       <Routes>
         <Route path="/bank/" element={<Home />} />
