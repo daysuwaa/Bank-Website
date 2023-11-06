@@ -24,25 +24,25 @@ const Navbar = () => {
         {/* Navs (centered) */}
         <ul className="hidden md:flex lg:flex font-medium text-white text-base font-lexend leading-normal space-x-6 ">
           <li>
-            <Link to="/bank/" className='font-lexend'>
+            <Link to="/bank/" className='font-lexend hover:underline'>
               Home
             </Link>
           </li>
 
           <li>
-            <Link to="/bank/careers" className='font-lexend'>
+            <Link to="/bank/careers" className='font-lexend hover:underline'>
               Careers
             </Link>
           </li>
 
           <li>
-            <Link to="/bank/about" className='font-lexend'>
+            <Link to="/bank/about" className='font-lexend hover:underline'>
               About
             </Link>
           </li>
 
           <li>
-            <Link to="/bank/security" className='font-lexend'>
+            <Link to="/bank/security" className='font-lexend hover:underline'>
               Security
             </Link>
           </li>
@@ -50,11 +50,11 @@ const Navbar = () => {
 
         {/* the log in and sign up */}
         <div className="hidden md:flex lg:flex  space-x-7">
-          <Link to="/bank/signup" className='text-white font-lexend text-md leading-7'>
+          <Link to="/bank/signup" className='text-white font-lexend text-md leading-7 hover:underline'>
             Sign Up
           </Link>
           <button>
-          <Link to="/bank/login" style={{ background: 'var(--green-60, #CAFF33)'}} className='rounded-full py-[12px] px-[24px] space-x-2.5 gap-2.5 items-center'>
+          <Link to="/bank/login" style={{ background: 'var(--green-60, #CAFF33)'}} className='rounded-full py-[12px] px-[24px] space-x-2.5 gap-2.5 items-center hover:underline'>
             Login
           </Link>
           </button>

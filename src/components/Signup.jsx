@@ -5,7 +5,12 @@ import Apos from'../assets/Icon-14.png'
 import Gmail from'../assets/Icon-2.png'
 import Facebook from '../assets/Icon-3.png'
 import Apple from '../assets/Icon-4.png'
-//  import Eye from '../assets/Icon-5.png'
+import Bank from '../assets/YourBanK.png'
+import Shape from '../assets/shape-30.png';
+import Location from'../assets/Icon-16.png'
+import Call from'../assets/Icon-17.png'
+import Mail from '../assets/Icon-18.png'
+
 
 const Signup = () => {
   
@@ -169,6 +174,68 @@ I recently started my own business, and YourBank has been instrumental in helpin
   <p style={{color: 'var(--green-60, #CAFF33)',textAlign: 'center',fontFamily: 'Lexend',fontSize: '16px',fontStyle: 'normal',fontWeight: '500',lineHeight: '24px'}}>Emily G</p>
   </div>
 </div>
+
+{/* footer section */}
+<div style={{display: 'flex',padding: '60px 80px 30px 80px',flexDirection: 'column',alignItems: 'center', gap: '40px'}}>
+<div className="flex items-center "> 
+<img src={Shape} alt='logo' className='w-[34px] h-[34px] shrink-0'/>
+<img src={Bank} alt='logo' className='w-[94.91px] h-[15.58px] shrink-0'/>
+</div>
+
+<div>
+<ul className=" flex font-medium text-white  font-lexend leading-normal space-x-6 ">
+          <li>
+            <Link to="/bank/" className='font-lexend'>
+              Home
+            </Link>
+          </li>
+
+          <li>
+            <Link to="/bank/careers" className='font-lexend'>
+              Careers
+            </Link>
+          </li>
+
+          <li>
+            <Link to="/bank/about" className='font-lexend'>
+              About
+            </Link>
+          </li>
+
+          <li>
+            <Link to="/bank/security" className='font-lexend'>
+              Security
+            </Link>
+          </li>
+        </ul>
+</div>
+
+<div style={{display: 'flex',justifyContent: 'center',alignItems: 'center',gap: '20px',alignSelf: 'stretch'}}className='grid grid-cols-2 grid-rows-1'>
+<ul className=" flex font-medium text-white  font-lexend leading-normal space-x-6 ">
+          <li className='flex'>
+            <img src={Mail} alt='mail' /> 
+            <p className='font-lexend'>hello@skillbirdge.com</p>
+          </li>
+
+          <li className='flex'>
+          <img src={Call} alt='telephone' />
+            <p to="/bank/careers" className='font-lexend'>
+            +91 91813 23 2309
+            </p>
+          </li>
+
+          <li className='flex'>
+          <img src={Location} alt='location' />
+            <p to="/bank/about" className='font-lexend'>
+            Somewhere in the World
+            </p>
+          </li>
+
+        </ul>
+
+        </div>
+</div>
+
 
 
   </div>
