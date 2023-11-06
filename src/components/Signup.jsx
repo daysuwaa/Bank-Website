@@ -123,21 +123,24 @@ const Signup = () => {
     Our 
    <span style={{color: 'var(--green-60, #CAFF33)',fontFamily: 'Lexend',fontStyle: 'normal',fontWeight: '500',lineHeight: '58px'}}> Testimonials </span> </h1>
 
-   <div className=' flex'>
-   <p style={{color: 'var(--grey-70, #B3B3B3)',fontFamily: 'Lexend',fontStyle: 'normal',fontWeight: '300', fontSize:'14px' }} className='hidden lg:block  '>
+   
+<div className='hidden lg:block'>
+<div className=' flex  '>
+   <p style={{color: 'var(--grey-70, #B3B3B3)',fontFamily: 'Lexend',fontStyle: 'normal',fontWeight: '300', fontSize:'14px' }} className='  '>
    Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque suscipit nihil nulla iure ea quam sapiente ipsa laboriosam? Quis eaque consequuntur expedita odio aliquam est corrupti. Omnis saepe dolore eos.
   </p>
-  <div style={{display:'flex', padding:'12px', alignItems:'flex-start', borderRadius: '82px',border: '1px solid var(--grey-15, #262626)' }}className="justify-center items-center  hidden lg:block">
+  <div style={{display:'flex', padding:'12px', alignItems:'flex-start', borderRadius: '82px',border: '1px solid var(--grey-15, #262626)' }}className="justify-center items-center  ">
   <button style={{borderRadius:'140px', padding:'10px 18px', background:'#CAFF33', justifyContent:'center', alignItems:'center', gap:'10px'}} className=' w-[136px] h-[41px]  '>
     <Link to='/bank/signup' style={{color:'#262626', textAlign:'center', fontFamily:'lexend', fontSize:'14px', fontWeight:'400', lineHeight:'150%'}} className="">
     For Individuals
     </Link>
   </button>
-  <button style={{borderRadius:'140px', padding:'10px 18px', justifyContent:'center', alignItems:'center', gap:'10px' , border: '1px solid var(--grey-15, #262626)'}} className='w-[136px] h-[41px]'>
+  <button style={{borderRadius:'140px', padding:'10px 18px', justifyContent:'center', alignItems:'center', gap:'10px' , border: '1px solid var(--grey-15, #262626)'}} className='w-[136px] h-[41px] '>
     <Link to='/bank/login' style={{color:'white', textAlign:'center', fontFamily:'lexend', fontSize:'14px', fontWeight:'400', lineHeight:'150%'}} className="">
     For Business
    </Link>
   </button>
+</div>
 </div>
 </div>
 
@@ -209,7 +212,6 @@ I recently started my own business, and YourBank has been instrumental in helpin
           </li>
         </ul>
 </div>
-<hr className='border-t-2 border-gray-400 my-4'></hr>
 <div style={{display: 'flex',justifyContent: 'center',alignItems: 'center',gap: '20px',alignSelf: 'stretch'}}className=''>
 <ul style={{display: 'flex',justifyContent: 'center',alignItems: 'center',alignContent: 'center',gap: '20px',alignSelf: 'stretch',flexWrap: 'wrap', color:'#E4E4E7'}}>
           <li className='flex'>
