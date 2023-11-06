@@ -188,25 +188,25 @@ I recently started my own business, and YourBank has been instrumental in helpin
 <div>
 <ul className=" flex font-medium text-white  font-lexend leading-normal space-x-6 ">
           <li>
-            <Link to="/bank/" className='font-lexend'>
+            <Link to="/bank/" className='font-lexend hover:underline '>
               Home
             </Link>
           </li>
 
           <li>
-            <Link to="/bank/careers" className='font-lexend'>
+            <Link to="/bank/careers" className='font-lexend hover:underline'>
               Careers
             </Link>
           </li>
 
           <li>
-            <Link to="/bank/about" className='font-lexend'>
+            <Link to="/bank/about" className='font-lexend hover:underline'>
               About
             </Link>
           </li>
 
           <li>
-            <Link to="/bank/security" className='font-lexend'>
+            <Link to="/bank/security" className='font-lexend hover:underline'>
               Security
             </Link>
           </li>
