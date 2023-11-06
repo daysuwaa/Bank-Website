@@ -209,23 +209,23 @@ I recently started my own business, and YourBank has been instrumental in helpin
           </li>
         </ul>
 </div>
-
-<div style={{display: 'flex',justifyContent: 'center',alignItems: 'center',gap: '20px',alignSelf: 'stretch'}}className='grid grid-cols-2 grid-rows-1'>
-<ul className=" flex font-medium text-white  font-lexend leading-normal space-x-6 ">
+<hr className='border-t-2 border-gray-400 my-4'></hr>
+<div style={{display: 'flex',justifyContent: 'center',alignItems: 'center',gap: '20px',alignSelf: 'stretch'}}className=''>
+<ul style={{display: 'flex',justifyContent: 'center',alignItems: 'center',alignContent: 'center',gap: '20px',alignSelf: 'stretch',flexWrap: 'wrap', color:'#E4E4E7'}}>
           <li className='flex'>
-            <img src={Mail} alt='mail' /> 
+            <img src={Mail} alt='mail' className='w-[28px] h-[28px]' /> 
             <p className='font-lexend'>hello@skillbirdge.com</p>
           </li>
 
           <li className='flex'>
-          <img src={Call} alt='telephone' />
+          <img src={Call} alt='telephone' className='w-[28px] h-[28px]'/>
             <p to="/bank/careers" className='font-lexend'>
             +91 91813 23 2309
             </p>
           </li>
 
           <li className='flex'>
-          <img src={Location} alt='location' />
+          <img src={Location} alt='location' className='w-[28px] h-[28px]' />
             <p to="/bank/about" className='font-lexend'>
             Somewhere in the World
             </p>
