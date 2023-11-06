@@ -127,7 +127,7 @@ const Signup = () => {
    <p style={{color: 'var(--grey-70, #B3B3B3)',fontFamily: 'Lexend',fontStyle: 'normal',fontWeight: '300', fontSize:'14px' }} className='hidden lg:block  '>
    Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque suscipit nihil nulla iure ea quam sapiente ipsa laboriosam? Quis eaque consequuntur expedita odio aliquam est corrupti. Omnis saepe dolore eos.
   </p>
-  <div style={{display:'flex', padding:'12px', alignItems:'flex-start', borderRadius: '82px',border: '1px solid var(--grey-15, #262626)' }}className="justify-center items-center ">
+  <div style={{display:'flex', padding:'12px', alignItems:'flex-start', borderRadius: '82px',border: '1px solid var(--grey-15, #262626)' }}className="justify-center items-center  hidden lg:block">
   <button style={{borderRadius:'140px', padding:'10px 18px', background:'#CAFF33', justifyContent:'center', alignItems:'center', gap:'10px'}} className=' w-[136px] h-[41px]  '>
     <Link to='/bank/signup' style={{color:'#262626', textAlign:'center', fontFamily:'lexend', fontSize:'14px', fontWeight:'400', lineHeight:'150%'}} className="">
     For Individuals
