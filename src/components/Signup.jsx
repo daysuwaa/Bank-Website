@@ -83,7 +83,7 @@ const Signup = () => {
     </div>
     {/* testimonalsss */}
 
-    <h1 style={{color:' #FFF',fontFamily: 'Lexend',fontStyle: 'normal',fontWeight: '500',lineHeight: '57px,', padding:'3rem  6rem 0'}} className='text-3xl lg:text-5xl'>
+    <h1 style={{color:' #FFF',fontFamily: 'Lexend',fontStyle: 'normal',fontWeight: '500',lineHeight: '57px,', padding:'3rem  6rem 0', textAlign:'center'}} className='text-xl lg:text-4xl'>
     Our 
    <span style={{color: 'var(--green-60, #CAFF33)',fontFamily: 'Lexend',fontStyle: 'normal',fontWeight: '500',lineHeight: '58px'}}> Testimonials </span> </h1>
    <div>
@@ -95,20 +95,20 @@ const Signup = () => {
 <div className='p-5'>
   <div style={{display:'flex', padding:'12px', alignItems:'flex-start', borderRadius: '82px',border: '1px solid var(--grey-15, #262626)' }}className="justify-center items-center ">
   <button style={{borderRadius:'140px', padding:'10px 18px', background:'#CAFF33', justifyContent:'center', alignItems:'center', gap:'10px'}} className=' w-[100px] h-[39px] lg:w-[404px] lg:h-[49px]'>
-    <Link to='/bank/signup' style={{color:'#262626', textAlign:'center', fontFamily:'lexend', fontSize:'9px', fontWeight:'400', lineHeight:'150%'}} >
+    <Link to='/bank/signup' style={{color:'#262626', textAlign:'center', fontFamily:'lexend', fontWeight:'400', lineHeight:'150%'}} className="text-2xl lg:text-lg">
     For Individuals
     </Link>
     
   </button>
-  <button style={{borderRadius:'140px', padding:'10px 18px', justifyContent:'center', alignItems:'center', gap:'10px' , border: '1px solid var(--grey-15, #262626)'}} className=' w-[100px] h-[48px] lg:w-[404px] lg:h-[49px]'>
-    <Link to='/bank/login' style={{color:'white', textAlign:'center', fontFamily:'lexend', fontSize:'9px', fontWeight:'400'}}>
+  <button style={{borderRadius:'140px', padding:'10px 18px', justifyContent:'center', alignItems:'center', gap:'10px' , border: '1px solid var(--grey-15, #262626)'}} className='w-[100px] h-[48px] lg:w-[404px] lg:h-[49px]'>
+    <Link to='/bank/login' style={{color:'white', textAlign:'center', fontFamily:'lexend', fontSize:'9px', fontWeight:'400'}} className="text-2xl lg:text-lg">
     For Business
    </Link>
   </button>
 </div>
 </div>
 
-<div className="grid lg:grid-cols-3 lg:grid-rows-1  gap-4 grid-cols-1 grid-rows-1 md:grid-cols-2 md:grid-rows-2" style={{ padding: '20px', gap: '10px', alignItems: 'center' }}>
+<div className="grid lg:grid-cols-3 lg:grid-rows-1 grid-cols-1 grid-rows-1 md:grid-cols-3 md:grid-rows-1" style={{ padding: '20px', gap: '10px', alignItems: 'center' }}>
 <img src={Apos} alt='app' className='justify-center items-center w-[44px] h-[44px] ' style={{}}/>
 <p style={{background: 'linear-gradient(270deg, rgba(25, 25, 25, 0.00) 0%, #191919 105.84%)', color:'var(--absolute-white, #FFF)', textAlign:'center', fontFamily:'Lexend', fontSize:'14px', fontStyle:'normal'}}>
 I recently started my own business, and YourBank has been instrumental in helping me set up my business accounts and secure the financing I needed. Their expert guidance and tailored solutions have been invaluable.
