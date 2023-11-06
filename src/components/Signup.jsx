@@ -83,32 +83,65 @@ const Signup = () => {
      
     </div>
     {/* testimonalsss */}
-<div className='py-[5rem]'>
-    <h1 style={{color:' #FFF',fontFamily: 'Lexend',fontStyle: 'normal',fontWeight: '500',lineHeight: '57px,', textAlign:'center'}} className='text-xl lg:text-4xl'>
+    {/* small screen */}
+   <div className='py-[5rem]'>
+    <h1 style={{color:' #FFF',fontFamily: 'Lexend',fontStyle: 'normal',fontWeight: '500',lineHeight: '57px,', textAlign:'center', fontSize:'28px'}} className=' lg:hidden'>
     Our 
    <span style={{color: 'var(--green-60, #CAFF33)',fontFamily: 'Lexend',fontStyle: 'normal',fontWeight: '500',lineHeight: '58px'}}> Testimonials </span> </h1>
    <div>
-   <p style={{color: 'var(--grey-70, #B3B3B3)',fontFamily: 'Lexend',fontStyle: 'normal',fontWeight: '300' }} className='text-md lg:text-lg  text-center '>
-    Discover how YourBank has transformed lives with innovative digital solutions and personalized customer service. See why our clients trust us for a secure and prosperous financial journey
+   <p style={{color: 'var(--grey-70, #B3B3B3)',fontFamily: 'Lexend',fontStyle: 'normal',fontWeight: '300',fontSize:'14px'}} className=' text-center lg:hidden'>
+   Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque suscipit nihil nulla iure ea quam sapiente ipsa laboriosam? Quis eaque consequuntur expedita odio aliquam est corrupti. Omnis saepe dolore eos.
   </p>
   </div>
 
 
-<div className='p-5'>
-  <div style={{display:'flex', padding:'12px', alignItems:'flex-start', borderRadius: '82px',border: '1px solid var(--grey-15, #262626)' }}className="justify-center items-center ">
-  <button style={{borderRadius:'140px', padding:'10px 18px', background:'#CAFF33', justifyContent:'center', alignItems:'center', gap:'10px'}} className=' w-[139px] h-[41px] lg:w-[404px] lg:h-[49px] '>
+<div className='p-5 lg:hidden'>
+  <div style={{display:'flex', padding:'12px', alignItems:'flex-start', borderRadius: '82px',border: '1px solid var(--grey-15, #262626)' }}className="justify-center items-center lg:hidden">
+  <button style={{borderRadius:'140px', padding:'10px 18px', background:'#CAFF33', justifyContent:'center', alignItems:'center', gap:'10px'}} className=' w-[139px] h-[41px] lg:w-[404px] lg:h-[49px] lg:hidden'>
     <Link to='/bank/signup' style={{color:'#262626', textAlign:'center', fontFamily:'lexend', fontSize:'14px', fontWeight:'400', lineHeight:'150%'}} className="">
     For Individuals
     </Link>
     
   </button>
-  <button style={{borderRadius:'140px', padding:'10px 18px', justifyContent:'center', alignItems:'center', gap:'10px' , border: '1px solid var(--grey-15, #262626)'}} className='w-[139px] h-[41px] lg:w-[404px] lg:h-[49px'>
+  <button style={{borderRadius:'140px', padding:'10px 18px', justifyContent:'center', alignItems:'center', gap:'10px' , border: '1px solid var(--grey-15, #262626)'}} className='w-[139px] h-[41px] lg:w-[404px] lg:h-[49px lg:hidden'>
     <Link to='/bank/login' style={{color:'white', textAlign:'center', fontFamily:'lexend', fontSize:'14px', fontWeight:'400', lineHeight:'150%'}} className="">
     For Business
    </Link>
   </button>
 </div>
 </div>
+{/* end of ss */}
+
+{/* large screens */}
+<div style={{display:'flex', width:'1280px', flexDirection:'column', alignItems:'flex-start'}}className='hidden lg:block'>
+    <h1 style={{color:' #FFF',fontFamily: 'Lexend',fontStyle: 'normal',fontWeight: '500',lineHeight: '57px,', fontSize:'38px'}} className='hidden lg:block'>
+    Our 
+   <span style={{color: 'var(--green-60, #CAFF33)',fontFamily: 'Lexend',fontStyle: 'normal',fontWeight: '500',lineHeight: '58px'}}> Testimonials </span> </h1>
+
+   <div className=' hidden lg:flex'>
+   <p style={{color: 'var(--grey-70, #B3B3B3)',fontFamily: 'Lexend',fontStyle: 'normal',fontWeight: '300', fontSize:'14px' }} className='hidden lg:block  '>
+   Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque suscipit nihil nulla iure ea quam sapiente ipsa laboriosam? Quis eaque consequuntur expedita odio aliquam est corrupti. Omnis saepe dolore eos.
+  </p>
+  <div style={{display:'flex', padding:'12px', alignItems:'flex-start', borderRadius: '82px',border: '1px solid var(--grey-15, #262626)' }}className="justify-center items-center ">
+  <button style={{borderRadius:'140px', padding:'10px 18px', background:'#CAFF33', justifyContent:'center', alignItems:'center', gap:'10px'}} className=' w-[136px] h-[41px]  '>
+    <Link to='/bank/signup' style={{color:'#262626', textAlign:'center', fontFamily:'lexend', fontSize:'14px', fontWeight:'400', lineHeight:'150%'}} className="">
+    For Individuals
+    </Link>
+  </button>
+  <button style={{borderRadius:'140px', padding:'10px 18px', justifyContent:'center', alignItems:'center', gap:'10px' , border: '1px solid var(--grey-15, #262626)'}} className='w-[136px] h-[41px]'>
+    <Link to='/bank/login' style={{color:'white', textAlign:'center', fontFamily:'lexend', fontSize:'14px', fontWeight:'400', lineHeight:'150%'}} className="">
+    For Business
+   </Link>
+  </button>
+</div>
+</div>
+
+
+</div>
+{/* end of ls */}
+
+
+
 
 <div className="grid lg:grid-cols-3 lg:grid-rows-1 grid-cols-1 grid-rows-1 md:grid-cols-3 md:grid-rows-1" style={{ }}>
 
@@ -123,14 +156,15 @@ I recently started my own business, and YourBank has been instrumental in helpin
 <div style={{display: 'flex',padding: '20px',flexDirection: 'column',alignItems: 'center',gap: '30px',alignSelf: 'stretch'}}>
 <img src={Apos} alt='app' />
 <p style={{background: 'linear-gradient(270deg, rgba(25, 25, 25, 0.00) 0%, #191919 105.84%)', color:'var(--absolute-white, #FFF)', textAlign:'center', fontFamily:'Lexend', fontSize:'14px', fontStyle:'normal'}}>
-  I recently started my own business, and YourBank has been instrumental in helping me set up my business accounts and secure the financing I needed. Their expert guidance and tailored solutions have been invaluable.
+ Your Bank has been my trusted finanace partner for years. Their personal service and innovative digital bank solutions have made managing my finances a breeze and ood good stuff too. Great xys and okay niec okay soft.
   </p>
   <p style={{color: 'var(--green-60, #CAFF33)',textAlign: 'center',fontFamily: 'Lexend',fontSize: '16px',fontStyle: 'normal',fontWeight: '500',lineHeight: '24px'}}>John D</p>
   </div>
 
   <div style={{display: 'flex',padding: '20px',flexDirection: 'column',alignItems: 'center',gap: '30px',alignSelf: 'stretch'}}>
 <img src={Apos} alt='app'/>
-<p style={{background: 'linear-gradient(270deg, rgba(25, 25, 25, 0.00) 0%, #191919 105.84%)', color:'var(--absolute-white, #FFF)', textAlign:'center', fontFamily:'Lexend', fontSize:'14px', fontStyle:'normal'}}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium aperiam odio ipsa, quis laudantium laborum, optio, reprehenderit facere eum similique at accusantium voluptas voluptate? Quos animi tenetur sunt totam mollitia.
+<p style={{background: 'linear-gradient(270deg, rgba(25, 25, 25, 0.00) 0%, #191919 105.84%)', color:'var(--absolute-white, #FFF)', textAlign:'center', fontFamily:'Lexend', fontSize:'14px', fontStyle:'normal'}}>
+  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium aperiam odio ipsa, quis laudantium laborum, optio, reprehenderit facere eum similique at accusantium voluptas voluptate? Quos animi tenetur sunt totam mollitia.
   </p>
   <p style={{color: 'var(--green-60, #CAFF33)',textAlign: 'center',fontFamily: 'Lexend',fontSize: '16px',fontStyle: 'normal',fontWeight: '500',lineHeight: '24px'}}>Emily G</p>
   </div>
@@ -140,6 +174,7 @@ I recently started my own business, and YourBank has been instrumental in helpin
   </div>
   </div>
   )
+  
 }
 
 export default Signup
