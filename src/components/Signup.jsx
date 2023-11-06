@@ -113,12 +113,12 @@ const Signup = () => {
 {/* end of ss */}
 
 {/* large screens */}
-<div style={{display:'flex', width:'1280px', flexDirection:'column', alignItems:'flex-start'}}className='hidden lg:block'>
+<div style={{display:'flex', flexDirection:'column', alignItems:'flex-start'}}className='hidden lg:block'>
     <h1 style={{color:' #FFF',fontFamily: 'Lexend',fontStyle: 'normal',fontWeight: '500',lineHeight: '57px,', fontSize:'38px'}} className='hidden lg:block'>
     Our 
    <span style={{color: 'var(--green-60, #CAFF33)',fontFamily: 'Lexend',fontStyle: 'normal',fontWeight: '500',lineHeight: '58px'}}> Testimonials </span> </h1>
 
-   <div className=' hidden lg:flex'>
+   <div className=' flex'>
    <p style={{color: 'var(--grey-70, #B3B3B3)',fontFamily: 'Lexend',fontStyle: 'normal',fontWeight: '300', fontSize:'14px' }} className='hidden lg:block  '>
    Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque suscipit nihil nulla iure ea quam sapiente ipsa laboriosam? Quis eaque consequuntur expedita odio aliquam est corrupti. Omnis saepe dolore eos.
   </p>
