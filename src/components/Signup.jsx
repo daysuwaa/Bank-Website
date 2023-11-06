@@ -83,7 +83,7 @@ const Signup = () => {
      
     </div>
     {/* testimonalsss */}
-
+<div className='py-[5rem]'>
     <h1 style={{color:' #FFF',fontFamily: 'Lexend',fontStyle: 'normal',fontWeight: '500',lineHeight: '57px,', textAlign:'center'}} className='text-xl lg:text-4xl'>
     Our 
    <span style={{color: 'var(--green-60, #CAFF33)',fontFamily: 'Lexend',fontStyle: 'normal',fontWeight: '500',lineHeight: '58px'}}> Testimonials </span> </h1>
@@ -91,6 +91,7 @@ const Signup = () => {
    <p style={{color: 'var(--grey-70, #B3B3B3)',fontFamily: 'Lexend',fontStyle: 'normal',fontWeight: '300' }} className='text-md lg:text-lg  text-center '>
     Discover how YourBank has transformed lives with innovative digital solutions and personalized customer service. See why our clients trust us for a secure and prosperous financial journey
   </p>
+  </div>
 
 
 <div className='p-5'>
@@ -109,31 +110,35 @@ const Signup = () => {
 </div>
 </div>
 
-<div className="grid lg:grid-cols-3 lg:grid-rows-1 grid-cols-1 grid-rows-1 md:grid-cols-3 md:grid-rows-1" style={{ padding: '20px', gap: '10px', alignItems: 'center' }}>
-  <div>
-<img src={Apos} alt='app' className='justify-center items-center w-[44px] h-[44px] ' style={{}}/>
+<div className="grid lg:grid-cols-3 lg:grid-rows-1 grid-cols-1 grid-rows-1 md:grid-cols-3 md:grid-rows-1" style={{ }}>
+
+  <div style={{display: 'flex',padding: '20px',flexDirection: 'column',alignItems: 'center',gap: '30px',alignSelf: 'stretch'}}>
+<img src={Apos} alt='app' className='justify-center items-center w-[44px] h-[44px] flex gap-[16px]' style={{}}/>
 <p style={{background: 'linear-gradient(270deg, rgba(25, 25, 25, 0.00) 0%, #191919 105.84%)', color:'var(--absolute-white, #FFF)', textAlign:'center', fontFamily:'Lexend', fontSize:'14px', fontStyle:'normal'}}>
 I recently started my own business, and YourBank has been instrumental in helping me set up my business accounts and secure the financing I needed. Their expert guidance and tailored solutions have been invaluable.
 </p>
+<p style={{color: 'var(--green-60, #CAFF33)',textAlign: 'center',fontFamily: 'Lexend',fontSize: '16px',fontStyle: 'normal',fontWeight: '500',lineHeight: '24px'}}>Sara T</p>
 </div>
 
-<div>
+<div style={{display: 'flex',padding: '20px',flexDirection: 'column',alignItems: 'center',gap: '30px',alignSelf: 'stretch'}}>
 <img src={Apos} alt='app' />
 <p style={{background: 'linear-gradient(270deg, rgba(25, 25, 25, 0.00) 0%, #191919 105.84%)', color:'var(--absolute-white, #FFF)', textAlign:'center', fontFamily:'Lexend', fontSize:'14px', fontStyle:'normal'}}>
   I recently started my own business, and YourBank has been instrumental in helping me set up my business accounts and secure the financing I needed. Their expert guidance and tailored solutions have been invaluable.
   </p>
+  <p style={{color: 'var(--green-60, #CAFF33)',textAlign: 'center',fontFamily: 'Lexend',fontSize: '16px',fontStyle: 'normal',fontWeight: '500',lineHeight: '24px'}}>John D</p>
   </div>
 
-  <div>
+  <div style={{display: 'flex',padding: '20px',flexDirection: 'column',alignItems: 'center',gap: '30px',alignSelf: 'stretch'}}>
 <img src={Apos} alt='app'/>
 <p style={{background: 'linear-gradient(270deg, rgba(25, 25, 25, 0.00) 0%, #191919 105.84%)', color:'var(--absolute-white, #FFF)', textAlign:'center', fontFamily:'Lexend', fontSize:'14px', fontStyle:'normal'}}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium aperiam odio ipsa, quis laudantium laborum, optio, reprehenderit facere eum similique at accusantium voluptas voluptate? Quos animi tenetur sunt totam mollitia.
   </p>
+  <p style={{color: 'var(--green-60, #CAFF33)',textAlign: 'center',fontFamily: 'Lexend',fontSize: '16px',fontStyle: 'normal',fontWeight: '500',lineHeight: '24px'}}>Emily G</p>
   </div>
 </div>
 
 
   </div>
-    </div>
+  </div>
   )
 }
 
