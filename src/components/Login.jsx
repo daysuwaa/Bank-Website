@@ -34,12 +34,14 @@ const Login = () => {
       className='w-[290px] h-[58px] lg:w-[400px] lg:h-[64px]'
     />
     </div>
+    
     {/* forgotten password */}
    <Link to ='/bank/forgotten' className='flex items-center justify-center' style={{textDecoration:'underline', color:'#BFBFBF'}}>
     Forgot Password?
    </Link>
   </div>
 </div>
+
 {/* sign up and log in buttons */}
 <div style={{display:'grid', padding:'14px 24px', alignItems:'center', gap:'10px', alignSelf:'stretch' }}className="justify-center items-center ">
   <button style={{borderRadius:'63px', background:'#CAFF33'}} className=' w-[300px] h-[49px] lg:w-[404px] lg:h-[49px]'>
