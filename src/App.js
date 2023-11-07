@@ -8,6 +8,7 @@ import Login from './components/Login';
 import Signup from './components/Signup';
 import Navbar from './components/Navbar'
 import ErrorPage from './components/ErrorPage';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
         <Route path="/bank/signup" element={<Signup />} />
         <Route path="*" element={<ErrorPage />} />
        </Routes>
+       <Footer/>
     </Router>
   );
 }
