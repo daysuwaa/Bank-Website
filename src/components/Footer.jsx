@@ -68,14 +68,23 @@ const Footer = () => {
         </ul>
         </div>
 </div>
-
-<div className='ml-auto mr-auto ' style={{display: 'flex',flexDirection: 'row',alignItems: 'center',gap: '-24px',alignSelf: 'stretch', justifyItems:'center' }}>
-  <div style={{display: 'flex',alignItems: 'flex-start',gap:' 8px'}} className="justify-center items-center"></div>
-  <img src={Facebook} alt='gmail' style={{display:'flex', padding:'14px',  borderRadius: '100px',background: 'var(--green-60, #CAFF33)'}}/>
-  <img src={Linked} alt='facebook'style={{display:'flex', padding:'14px',borderRadius: '100px',background: 'var(--green-60, #CAFF33)'}}/>
-  <img src={Twitter} alt='apple' style={{display:'flex', padding:'14px', borderRadius: '100px',background: 'var(--green-60, #CAFF33)'}}/>
+<div style={{ border:'1px solid #262626', borderRadius:'12px', margin:'10px 25px' ,background: 'var(--grey-10, #1A1A1A)'}}>
+<div className='' style={{display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'center', alignSelf: 'stretch',}}>
+ 
+  <img src={Facebook} alt='gmail' style={{padding:'14px', borderRadius: '100px', background: 'var(--green-60, #CAFF33)'}}/>
+  <img src={Linked} alt='facebook' style={{padding:'14px', borderRadius: '100px', background: 'var(--green-60, #CAFF33)'}}/>
+  <img src={Twitter} alt='apple' style={{padding:'14px', borderRadius: '100px', background: 'var(--green-60, #CAFF33)'}}/>
+  
 </div>
 
+<div style={{textAlign:'center',  }}>
+<p style={{color: 'var(--grey-shades-70, #B3B3B3)',fontFamily: 'Lexend',fontSize: '14px',fontStyle: 'normal',fontWeight: '300',lineHeight:  '21px',paddingTop:'2rem'
+}}>YourBank All Rights Reserved</p>
+  <p style={{color: 'var(--grey-shades-70, #B3B3B3)',fontFamily: 'Lexend',fontSize: '14px',fontStyle: 'normal',fontWeight: '300',lineHeight:  '21px',paddingTop:'1rem',paddingBottom:'2rem'
+}}>Privacy Policy | Terms of Service</p>
+</div>
+
+    </div>
     </div>
   )
 }

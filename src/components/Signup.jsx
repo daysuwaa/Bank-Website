@@ -180,6 +180,13 @@ const Signup = () => {
            <p style={{background: 'linear-gradient(270deg, rgba(25, 25, 25, 0.00) 0%, #191919 105.84%)', color:'var(--absolute-white, #FFF)', textAlign:'center', fontFamily:'Lexend', fontSize:'14px', fontStyle:'normal'}}>
                Your Bank has been my trusted finanace partner for years. Their personal service and innovative digital bank solutions have made managing my finances a breeze and ood good stuff too. Great xys and okay niec okay soft.
             </p>
+            <p style={{color: 'var(--green-60, #CAFF33)',textAlign: 'center',fontFamily: 'Lexend',fontSize: '16px',fontStyle: 'normal',fontWeight: '500',lineHeight: '24px'}}>Sara G</p>
+        </div>
+        <div style={{ display: 'flex', padding: '20px', flexDirection: 'column', alignItems: 'center', gap: '30px', alignSelf: 'stretch' }}>
+            <img src={Apos} alt='app' className='justify-center items-center w-[44px] h-[44px] flex gap-[16px]' style={{}} />
+           <p style={{background: 'linear-gradient(270deg, rgba(25, 25, 25, 0.00) 0%, #191919 105.84%)', color:'var(--absolute-white, #FFF)', textAlign:'center', fontFamily:'Lexend', fontSize:'14px', fontStyle:'normal'}}>
+           I recently started my own business, and YourBank has been instrumental in helping me set up my business accounts and secure the financing I needed. Their expert guidance and tailored solutions have been invaluable.
+            </p>
             <p style={{color: 'var(--green-60, #CAFF33)',textAlign: 'center',fontFamily: 'Lexend',fontSize: '16px',fontStyle: 'normal',fontWeight: '500',lineHeight: '24px'}}>John D</p>
         </div>
 
