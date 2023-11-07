@@ -10,6 +10,8 @@ import Shape from '../assets/shape-30.png';
 import Location from'../assets/Icon-16.png'
 import Call from'../assets/Icon-17.png'
 import Mail from '../assets/Icon-18.png'
+import Linked from'../assets/Icon-12.png'
+import Twitter from '../assets/Icon-13.png'
 
 
 const Signup = () => {
@@ -234,14 +236,19 @@ I recently started my own business, and YourBank has been instrumental in helpin
           </li>
 
         </ul>
-
         </div>
 </div>
 
+<div className='mx-auto ' style={{display: 'flex',flexDirection: 'row',alignItems: 'center',gap: '-24px',alignSelf: 'stretch', justifyItems:'center' }}>
+  <div style={{display: 'flex',alignItems: 'flex-start',gap:' 8px'}} className="justify-center items-center"></div>
+  <img src={Facebook} alt='gmail' style={{display:'flex', padding:'14px',  borderRadius: '100px',background: 'var(--green-60, #CAFF33)'}}/>
+  <img src={Linked} alt='facebook'style={{display:'flex', padding:'14px',borderRadius: '100px',background: 'var(--green-60, #CAFF33)'}}/>
+  <img src={Twitter} alt='apple' style={{display:'flex', padding:'14px', borderRadius: '100px',background: 'var(--green-60, #CAFF33)'}}/>
+</div>
 
-
-  </div>
-  </div>
+ 
+</div>
+</div>
   )
   
 }
