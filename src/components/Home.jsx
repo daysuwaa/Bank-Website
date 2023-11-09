@@ -3,7 +3,7 @@ import Container from '../assets/Container.png'
 // import Shape from '../assets/shape-30.png';
 // import Bank from '../assets/YourBanK.png';
 // import Abstract from'../assets/Abstract Design.png'
-// import Check from '../assets/Icon-19.png';
+import Check from '../assets/Icon-19.png';
 // import Down from'../assets/Icon-20.png'
 // import Cards from '../assets/Icon-21.png'
 // import Arrow from '../assets/Icon-22.png'
@@ -23,15 +23,40 @@ const Home = () => {
   return (
     <div>
       {/* hero section */}
+      <div className=' flex items-center lg:pt-[60px] lg:pr-[200px] lg:pb-[60px] lg:pl-[80px]' style={{}}>
       <div className="grid md:grid-cols-2 gap-4 sm:grid-cols-1  p-[3rem] ">
-        knskajl
+        <div>
+        <div className='flex'>
+        <img src={Check} alt='check' className='w-[20px] h-[20px]' />
+        <p style={{ color: 'var(--absolute-white, #FFF)', fontFamily: 'Lexend', fontSize: '14px', fontStyle: 'normal', fontWeight: '300', lineHeight: '24px', paddingLeft: '8px'}} className='font-bold'>
+        No LLC Required, No Credit Check.
+        </p>
+        </div>
+      <div>
+        <p style={{ color: 'var(--absolute-white, #FFF)', fontFamily: 'Lexend', fontSize: '38px', fontStyle: 'normal', fontWeight: '500', lineHeight: '57px' }} className='font-extrabold'>
+            Welcome to YourBank Empowering Your <span style={{ color: 'var(--green-60, #CAFF33)' }}>Financial Journey</span>
+          </p>
+        </div>
+        <div>
+        <p style={{color: 'var(--absolute-white, #FFF)', fontFamily: 'Lexend', fontSize: '14px', fontStyle: 'normal', fontWeight: '300', lineHeight: '24px', paddingLeft: '8px'}} className='font-bold'>At YourBank, our mission is to provide comprehensive banking solutions that empower individuals and businesses to achieve their financial goals. We are committed to delivering personalized and innovative services that prioritize our customers' needs.
+          </p>
+        </div>
+        <div style={{display:'flex', padding:'50px 24px' , alignItems:'center', gap:'10px'}}>
+          <button style={{borderRadius: '82px', background:'var(--green-60, #CAFF33' }}className='w-[144px] h-[49px]'>
+           Open Account
+          </button>
+        </div>
+        </div>
+       
+
+        
 
         <div className="p-3 flex justify-center items-center">
           <img src={Container} alt='img' className='w-[305.45]  h-[368.19px} lg:w-[410.192px] lg:h-[501.274px]  w-full' />
         </div>
       </div>
 
-     
+     </div>
     </div>
   )
 }
