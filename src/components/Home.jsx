@@ -3,7 +3,7 @@ import Container from '../assets/Container.png'
 // import Shape from '../assets/shape-30.png';
 // import Bank from '../assets/YourBanK.png';
 // import Abstract from'../assets/Abstract Design.png'
-import Check from '../assets/Icon-19.png';
+// import Check from '../assets/Icon-19.png';
 // import Down from'../assets/Icon-20.png'
 // import Cards from '../assets/Icon-21.png'
 // import Arrow from '../assets/Icon-22.png'
@@ -23,13 +23,12 @@ const Home = () => {
   return (
     <div>
       {/* hero section */}
-      <div className=' flex items-center gap-[100px]' style={{padding:'60px 200px 60px 80px', width:'1440px'}}>
-      <div style={{display: 'flex',flexDirection: 'column',alignItems: 'flex-start',gap: '16px',alignSelf: 'stretch'}}>
-        <div className='flex '>
-        <img src={Check} alt='check'/>
-        <p className='pl-2'>No LLC Required, No Credit Check.</p>
+      <div className="grid md:grid-cols-2 gap-4 sm:grid-cols-1  p-[3rem] ">
+        knskajl
+
+        <div className="p-3 flex justify-center items-center">
+          <img src={Container} alt='img' className='w-[305.45]  h-[368.19px} lg:w-[410.192px] lg:h-[501.274px]  w-full' />
         </div>
-      </div>
       </div>
 
      
