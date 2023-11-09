@@ -38,7 +38,7 @@ const Home = () => {
           </p>
         </div>
         <div>
-        <p style={{color: 'var(--absolute-white, #FFF)', fontFamily: 'Lexend', fontSize: '14px', fontStyle: 'normal', fontWeight: '300', lineHeight: '24px', paddingLeft: '8px'}} className='font-bold'>At YourBank, our mission is to provide comprehensive banking solutions that empower individuals and businesses to achieve their financial goals. We are committed to delivering personalized and innovative services that prioritize our customers' needs.
+        <p style={{color: 'var(--absolute-white, #FFF)', fontFamily: 'Lexend', fontSize: '14px', fontStyle: 'normal', fontWeight: '300', lineHeight: '24px', paddingLeft: '8px'}} className='font-bold text-center lg:text-left'>At YourBank, our mission is to provide comprehensive banking solutions that empower individuals and businesses to achieve their financial goals. We are committed to delivering personalized and innovative services that prioritize our customers' needs.
           </p>
         </div>
         <div style={{display:'flex', padding:'50px 24px' , alignItems:'center', gap:'10px'}}>
@@ -51,11 +51,12 @@ const Home = () => {
 
         
 
-        <div className="p-3 flex justify-center items-center">
+        <div className="p-3 flex justify-end s">
           <img src={Container} alt='img' className='w-[305.45]  h-[368.19px} lg:w-[410.192px] lg:h-[501.274px]  w-full' />
         </div>
       </div>
-
+      
+     {/* <img src={Vector} alt='abs' /> */}
      </div>
     </div>
   )
