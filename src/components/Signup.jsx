@@ -136,14 +136,14 @@ const Signup = () => {
         <div className='p-5 lg:hidden'>
           <div style={{ display: 'flex', padding: '12px', alignItems: 'flex-start', borderRadius: '82px', border: '1px solid var(--grey-15, #262626)' }} className="justify-center items-center lg:hidden">
             <button style={{ borderRadius: '140px', padding: '10px 18px', background: '#CAFF33', justifyContent: 'center', alignItems: 'center', gap: '10px' }} className=' w-[139px] h-[41px] lg:w-[404px] lg:h-[49px] lg:hidden'>
-              <Link to='/bank/signup' style={{ color: '#262626', textAlign: 'center', fontFamily: 'lexend', fontSize: '14px', fontWeight: '400', lineHeight: '150%' }} className="">
+              <div to='/bank/signup' style={{ color: '#262626', textAlign: 'center', fontFamily: 'lexend', fontSize: '14px', fontWeight: '400', lineHeight: '150%' }} className="">
                 For Individuals
-              </Link>
+              </div>
             </button>
             <button style={{ borderRadius: '140px', padding: '10px 18px', justifyContent: 'center', alignItems: 'center', gap: '10px', border: '1px solid var(--grey-15, #262626)' }} className='w-[139px] h-[41px] lg:w-[404px] lg:h-[49px lg:hidden]'>
-              <Link to='/bank/login' style={{ color: 'white', textAlign: 'center', fontFamily: 'lexend', fontSize: '14px', fontWeight: '400', lineHeight: '150%' }} className="">
+              <div to='/bank/login' style={{ color: 'white', textAlign: 'center', fontFamily: 'lexend', fontSize: '14px', fontWeight: '400', lineHeight: '150%' }} className="">
                 For Business
-              </Link>
+              </div>
             </button>
           </div>
         </div>
@@ -160,14 +160,14 @@ const Signup = () => {
               </p>
               <div style={{ display: 'flex', padding: '12px', alignItems: 'flex-start', borderRadius: '82px', border: '1px solid var(--grey-15, #262626)' }} className="justify-center items-center  ">
                 <button style={{ borderRadius: '140px', padding: '10px 18px', background: '#CAFF33', justifyContent: 'center', alignItems: 'center', gap: '10px' }} className=' w-[136px] h-[41px]  '>
-                  <Link to='/bank/signup' style={{ color: '#262626', textAlign: 'center', fontFamily: 'lexend', fontSize: '14px', fontWeight: '400', lineHeight: '150%' }} className="">
+                  <div  style={{ color: '#262626', textAlign: 'center', fontFamily: 'lexend', fontSize: '14px', fontWeight: '400', lineHeight: '150%' }} className="">
                     For Individuals
-                  </Link>
+                  </div>
                 </button>
                 <button style={{ borderRadius: '140px', padding: '10px 18px', justifyContent: 'center', alignItems: 'center', gap: '10px', border: '1px solid var(--grey-15, #262626)' }} className='w-[136px] h-[41px] '>
-                  <Link to='/bank/login' style={{ color: 'white', textAlign: 'center', fontFamily: 'lexend', fontSize: '14px', fontWeight: '400', lineHeight: '150%' }} className="">
+                  <div  style={{ color: 'white', textAlign: 'center', fontFamily: 'lexend', fontSize: '14px', fontWeight: '400', lineHeight: '150%' }} className="">
                     For Business
-                  </Link>
+                  </div>
                 </button>
               </div>
             </div>
