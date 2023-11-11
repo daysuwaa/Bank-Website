@@ -146,7 +146,7 @@ const Home = () => {
           <p style={{ color: 'var(--green-60, #CAFF33)', fontSize: '28px', fontFamily: 'lexend' }} className='font-semibold '>Use case</p>
           <p style={{ color: 'var(--grey-70, #B3B3B3)', fontFamily: 'lexend', fontSize: '14px', paddingBottom: '2rem' }}>At YourBank, we cater to the diverse needs of individuals and businesses alike, offering a wide range of financial solutions</p>
 
-          <div style={{ border: '1px solid #262626', borderRadius: '12px', width: '398px', height: '350px' }}>
+          <div style={{ border: '1px solid #262626', borderRadius: '12px', width: '358px', height: '350px' }}>
             
               <div style={{ display: 'grid', alignItems: 'center', gridTemplateColumns: '1fr 1fr', gridTemplateRows: '1fr 1fr', gap: '10px', padding: '1rem' }}>
 
