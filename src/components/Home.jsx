@@ -42,7 +42,7 @@ const Home = () => {
               <p style={{ color: 'var(--absolute-white, #FFF)', fontFamily: 'Lexend', fontSize: '14px', fontStyle: 'normal', fontWeight: '300', lineHeight: '24px', paddingLeft: '8px' }} className='font-bold text-center lg:text-left'>At YourBank, our mission is to provide comprehensive banking solutions that empower individuals and businesses to achieve their financial goals. We are committed to delivering personalized and innovative services that prioritize our customers' needs.
               </p>
             </div>
-            <div style={{ display: 'flex', padding: '50px 24px', alignItems: 'center', gap: '10px' }}>
+            <div style={{ display: 'flex', padding: '50px 24px', alignItems: 'center', gap: '10px' }} className='justify-center lg:justify-start'>
               <button style={{ borderRadius: '82px', background: 'var(--green-60, #CAFF33)' }} className='w-[144px] h-[49px] '>
                 Open Account
               </button>
@@ -200,9 +200,12 @@ const Home = () => {
           <p style={{color:' var(--grey-70, #B3B3B3)', textAlign:'center', fontSize:'14px' , fontFamily:'lexend'}}>Reducing Financial burdens</p>
           <p className='pt-3 text-lg' style={{color:' var(--grey-15, #262626)'}}>---------------------------------</p>
         </div>
-        <button style={{borderRadius:'82px', border:'1px solid var(--grey-15, #262626)', background: 'var(--grey-11, #1C1C1C)', width:'118px', height:'48px', alignContent:'center'}}>
+        <div style={{display:'flex', padding:'14px 20px' ,  justifyContent:'center'}}>
+        <button style={{ borderRadius: '82px', border: '1px solid var(--grey-15, #262626)', background: 'var(--grey-11, #1C1C1C)', width: '118px', height: '48px', }}>
          <p className='text-white font-lexend'>Learn More</p>
         </button>
+        </div>
+
         </div>
    
  </div>
