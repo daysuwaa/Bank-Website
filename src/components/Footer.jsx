@@ -69,7 +69,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div style={{ border: '1px solid #262626', borderRadius: '12px', margin: '10px 25px', background: 'var(--grey-10, #1A1A1A)' , padding:'50px 16px 30px 16px'}}>
+      <div style={{ border: '1px solid #262626', borderRadius: '12px', margin: '10px 25px', background: 'var(--grey-10, #1A1A1A)' , padding:'50px 16px 30px'}}>
         <div className='' style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'center', alignSelf: 'stretch' ,  }}>
           <img src={Facebook} alt='gmail' style={{ padding: '14px', borderRadius: '100px', background: 'var(--green-60, #CAFF33)' }} />
           <img src={Linked} alt='facebook' style={{ padding: '14px', borderRadius: '100px', background: 'var(--green-60, #CAFF33)' }} />

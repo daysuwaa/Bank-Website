@@ -6,14 +6,15 @@ import Container from '../assets/Container.png'
 import Check from '../assets/Icon-19.png';
 import Down from'../assets/Icon-20.png'
 import Cards from '../assets/Icon-21.png'
+import Cash from '../assets/Icon-28.png'
 // import Arrow from '../assets/Icon-22.png'
 // import Quotes from'../assets/Icon-23.png'
-// import House from '../assets/Icon-25.png'
+import House from '../assets/Icon-25.png'
 // import ArrowUp from '../assets/Icon-26.png'
 // import ArrowDown from'../assets/Icon-27.png'
 import Briefcase from '../assets/briefcase.fill.png'
-// import Frame from '../assets/Frame.png'
-// import Frame2 from '../assets/Frame-2.png'
+import Frame from '../assets/Frame.png'
+import Frame2 from '../assets/Frame-2.png'
 // import Vector from '../assets/Vector-2.png'
 // import Vector3 from '../assets/Vector-2.png'
 
@@ -32,7 +33,7 @@ const Home = () => {
         No LLC Required, No Credit Check.
         </p>
         </div>
-      <div>
+      <div className='text-center lg:text-left'>
         <p style={{ color: 'var(--absolute-white, #FFF)', fontSize: '38px', fontStyle: 'normal', fontWeight: '500', lineHeight: '57px' }} className='font-extrabold'>
             Welcome to YourBank Empowering Your <span style={{ color: 'var(--green-60, #CAFF33)' }}>Financial Journey</span>
           </p>
@@ -42,7 +43,7 @@ const Home = () => {
           </p>
         </div>
         <div style={{display:'flex', padding:'50px 24px' , alignItems:'center', gap:'10px'}}>
-          <button style={{borderRadius: '82px', background:'var(--green-60, #CAFF33' }}className='w-[144px] h-[49px]'>
+          <button style={{borderRadius: '82px', background:'var(--green-60, #CAFF33', }}className='w-[144px] h-[49px] '>
            Open Account
           </button>
         </div>
@@ -78,6 +79,8 @@ const Home = () => {
             </button>
           </div>
         </div>
+
+      
         
         {/* end of ss */}
 
@@ -148,11 +151,63 @@ const Home = () => {
     
 
 
-{/* use case */}
+  {/* Use case ss*/}
+  <div style={{textAlign:'center'}}>
+  <p style={{ color: 'var(--green-60, #CAFF33)', fontSize:'28px', fontFamily:'lexend'  }}className='font-semibold '>Use case</p>
+  <p style={{color: 'var(--grey-70, #B3B3B3)', fontFamily:'lexend', fontSize:'14px', paddingBottom:'2rem'}}>At YourBank, we cater to the diverse needs of individuals and businesses alike, offering a wide range of financial solutions</p>
 
+
+  <div style={{border: '1px solid #262626', borderRadius: '12px', width:'398px', height:'350px'}}>
+  <div>
+  {/* <img src={Abstract} alt='abs' className='' style={{transform: 'rotate(-90deg)', width:'100px', height:'100px', left:'0' , fill: 'radial-gradient(152.24% 143.75% at 103.26% 0%, rgba(25, 25, 25, 0.30) 20.29%, rgba(202, 255, 51, 0.30) 34.91%, rgba(25, 25, 25, 0.30) 60.69%)'}}/> */}
+  <div style={{display:'grid', alignItems:'center', gridTemplateColumns:'1fr 1fr', gridTemplateRows:'1fr 1fr', gap:'10px', padding:'1rem' , }}>
+
+  <div style={{display:'flex', padding:'20px 14px', flexDirection:'column', alignItems:'center', gap:'14px',background: 'var(--grey-10, #1A1A1A)',borderRadius: '12px', flex:'1 0 0', border: '1px solid #262626'}}>
+      <div style={{borderRadius:'12px', border:'1px solid var(--grey-15, #262626', background:'var(--grey-19, 1A1A1A)'}}  >
+         <img src={Frame} alt='frame' style={{borderRadius:'50px', border:'1px solid #CAFF33', background:'linear-gradient(180deg, rgba(202, 255, 51, 0.10) -66.22%, rgba(202, 255, 51, 0.00) 85.46%)', padding:'12px', }}/>
+      </div>
+      <p style={{color: 'var(--absolute-white, #FFF)', fontSize: '14px', fontStyle: 'normal', fontWeight: '500' }}>Managing Personal Finanaces</p>
+ </div>
+
+ <div style={{display:'flex', padding:'20px 14px', flexDirection:'column', alignItems:'center', gap:'14px',background: 'var(--grey-10, #1A1A1A)',borderRadius: '12px', flex:'1 0 0', border: '1px solid #262626'}}>
+      <div style={{borderRadius:'12px', border:'1px solid var(--grey-15, #262626', background:'var(--grey-19, 1A1A1A)'}}  >
+         <img src={Frame2} alt='frame' style={{borderRadius:'50px', border:'1px solid #CAFF33', background:'linear-gradient(180deg, rgba(202, 255, 51, 0.10) -66.22%, rgba(202, 255, 51, 0.00) 85.46%)', padding:'12px'}}/>
+      </div>
+      <p style={{color: 'var(--absolute-white, #FFF)', fontSize: '14px', fontStyle: 'normal', fontWeight: '500' }}>Saving for the <br></br>Future</p>
+ </div>
+
+ <div style={{display:'flex', padding:'20px 14px', flexDirection:'column', alignItems:'center', gap:'14px',background: 'var(--grey-10, #1A1A1A)',borderRadius: '12px', flex:'1 0 0', border: '1px solid #262626'}}>
+      <div style={{borderRadius:'12px', border:'1px solid var(--grey-15, #262626', background:'var(--grey-19, 1A1A1A)'}}  >
+         <img src={House} alt='frame' style={{borderRadius:'50px', border:'1px solid #CAFF33', background:'linear-gradient(180deg, rgba(202, 255, 51, 0.10) -66.22%, rgba(202, 255, 51, 0.00) 85.46%)', padding:'12px'}}/>
+      </div>
+      <p style={{color: 'var(--absolute-white, #FFF)', fontSize: '14px', fontStyle: 'normal', fontWeight: '500' }}>HouseOwnership</p>
+ </div>
+
+ <div style={{display:'flex', padding:'20px 14px', flexDirection:'column', alignItems:'center', gap:'14px',background: 'var(--grey-10, #1A1A1A)',borderRadius: '12px', flex:'1 0 0', border: '1px solid #262626'}}>
+      <div style={{borderRadius:'12px', border:'1px solid var(--grey-15, #262626', background:'var(--grey-19, 1A1A1A)'}}  >
+         <img src={Cash} alt='frame' style={{borderRadius:'50px', border:'1px solid #CAFF33', background:'linear-gradient(180deg, rgba(202, 255, 51, 0.10) -66.22%, rgba(202, 255, 51, 0.00) 85.46%)', padding:'12px'}}/>
+      </div>
+      <p style={{color: 'var(--absolute-white, #FFF)', fontSize: '14px', fontStyle: 'normal', fontWeight: '500' }}>Education Funding</p>
+ </div>
+
+ 
+    </div>
+
+    {/* <div>
+   <p style={{color: 'var(--absolute-white, #FFF)', fontSize: '20px', fontStyle: 'normal', fontWeight: '500',}}>For Individuals</p>
+   <p style={{color: 'var(--grey-70, #B3B3B3)', fontFamily:'lexend', fontSize:'14px', paddingBottom:'2rem'}}>For individuals, our mortgage services pave the way to homeownership, and our flexible personal loans provide vital support during various life milestones. We also prioritize retirement planning, ensuring a financially secure future for our customers</p>
+    </div>
+
+     */}
+    
+  </div>
+  
+  </div>
+</div>
 
      </div>
     </div>
+    
   )
 }
 
