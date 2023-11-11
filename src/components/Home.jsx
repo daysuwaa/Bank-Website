@@ -181,8 +181,28 @@ const Home = () => {
       </div>
    </div>
           <div>
-               <p style={{color: 'var(--absolute-white, #FFF)',fontSize: '14px',fontStyle: 'normal',fontWeight: '500'}}>For Individuals</p>
+            <p style={{color: 'var(--absolute-white, #FFF)',fontSize: '20px',fontStyle: 'normal',fontWeight: '500', paddingTop:'2rem', fontFamily:'lexend'}}>For Individuals</p>
           <p style={{color: 'var(--grey-70, #B3B3B3)',fontFamily: 'lexend',fontSize: '14px', paddingBottom: '2rem'}}>For individuals, our mortgage services pave the way to homeownership, and our flexible personal loans provide vital support during various life milestones. We also prioritize retirement planning, ensuring a financially secure future for our customers</p>
+        </div>
+        <div style={{display:'flex', padding:'0px 50px', flexDirection:'column', gap:'30px', alignSelf:'stretch'}}>
+        <div>
+          <h1 style={{color: 'var(--green-60, #CAFF33)', textAlign:'center', fontSize:'40px'}} className='font-bold'>78%</h1>
+          <p style={{color:' var(--grey-70, #B3B3B3)', textAlign:'center', fontSize:'14px' , fontFamily:'lexend'}}>Secure Retirement Planning</p>
+          <p className='pt-3 text-lg' style={{color:' var(--grey-15, #262626)'}}>-------------------------------</p>
+        </div>
+        <div>
+          <h1 style={{color: 'var(--green-60, #CAFF33)', textAlign:'center', fontSize:'40px'}} className='font-bold'>63%</h1>
+          <p style={{color:' var(--grey-70, #B3B3B3)', textAlign:'center', fontSize:'14px' , fontFamily:'lexend'}}>Manageable Debts Consolidation</p>
+          <p className='pt-3 text-lg' style={{color:' var(--grey-15, #262626)'}}>--------------------------------</p>
+        </div>
+        <div>
+          <h1 style={{color: 'var(--green-60, #CAFF33)', textAlign:'center', fontSize:'40px'}} className='font-bold'>91%</h1>
+          <p style={{color:' var(--grey-70, #B3B3B3)', textAlign:'center', fontSize:'14px' , fontFamily:'lexend'}}>Reducing Financial burdens</p>
+          <p className='pt-3 text-lg' style={{color:' var(--grey-15, #262626)'}}>---------------------------------</p>
+        </div>
+        <button style={{borderRadius:'82px', border:'1px solid var(--grey-15, #262626)', background: 'var(--grey-11, #1C1C1C)', width:'118px', height:'48px', alignContent:'center'}}>
+         <p className='text-white font-lexend'>Learn More</p>
+        </button>
         </div>
    
  </div>
