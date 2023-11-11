@@ -109,7 +109,7 @@ const Home = () => {
         </div>
         {/* end of ls */}
 
-        <div className='max-w-[1240px] mx-auto grid md:grid-cols-2 lg:grid-cols-3 gap-8'>
+        <div className=' mx-auto grid md:grid-cols-2 lg:grid-cols-3 gap-8'>
           <div className=' flex flex-col p-4 my-4 '>
             <img src={Briefcase} alt='brief' className='w-[26px] h-[22px] mx-auto' />
             <h3 style={{ color: 'var(--absolute-white, #FFF)', fontStyle: 'normal', fontWeight: '300', lineHeight: '24px', paddingLeft: '8px' }} className='mx-auto pt-5 font-bold text-md lg:text-lg'>
