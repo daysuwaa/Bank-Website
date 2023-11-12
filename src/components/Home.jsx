@@ -2,7 +2,7 @@ import React from 'react'
 import Container from '../assets/Container.png'
 // import Shape from '../assets/shape-30.png';
 // import Bank from '../assets/YourBanK.png';
-// import Abstract from'../assets/Abstract Design.png'
+import Abstract from'../assets/Abstract Design.png'
 import Check from '../assets/Icon-19.png';
 import Down from'../assets/Icon-20.png'
 import Cards from '../assets/Icon-21.png'
@@ -146,18 +146,21 @@ const Home = () => {
           <p style={{ color: 'var(--green-60, #CAFF33)', fontSize: '28px', fontFamily: 'lexend' }} className='font-semibold '>Use case</p>
           <p style={{ color: 'var(--grey-70, #B3B3B3)', fontFamily: 'lexend', fontSize: '14px', paddingBottom: '3rem' }}>At YourBank, we cater to the diverse needs of individuals and businesses alike, offering a wide range of financial solutions</p>
       
-          <div style={{ border: '1px solid #262626', borderRadius: '12px', width:'358px', height:'370px', margin:'auto'}}>
-          <div style={{ display: 'grid', alignItems: 'center', gridTemplateColumns: '1fr 1fr', gridTemplateRows: '1fr 1fr', padding: '1rem', justifyContent: 'center', }}>
+          <div style={{ border: '1px solid #262626', borderRadius: '12px', width:'358px', height:'370px', margin:'auto', position: 'relative'}}>
+  <img src={Abstract} alt='abs' style={{ width: '118px', height: '112px', transform: 'rotate(-90deg)', position: 'absolute' }} />
+  <div style={{ display: 'grid', alignItems: 'center', gridTemplateColumns: '1fr 1fr', gridTemplateRows: '1fr 1fr', padding: '1rem', justifyContent: 'center', position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', gap:'14px', paddingTop:'2.5rem' }}>
+   
+    <div className=' w-[154px] h-[160px]'>
+      <div style={{ display: 'flex', padding: '20px 14px', flexDirection: 'column', alignItems: 'center', gap: '14px', background: 'var(--grey-10, #1A1A1A)', borderRadius: '12px', flex: '1 0 0', border: '1px solid #262626' }}>
+        <div style={{ borderRadius: '12px', border: '1px solid var(--grey-15, #262626)', background: 'var(--grey-19, 1A1A1A)' }}>
+          <img src={Frame} alt='frame' style={{ borderRadius: '50px', border: '1px solid #CAFF33', background: 'linear-gradient(180deg, rgba(202, 255, 51, 0.10) -66.22%, rgba(202, 255, 51, 0.00) 85.46%)', padding: '12px' }} />
+        </div>
+        <p style={{ color: 'var(--absolute-white, #FFF)', fontSize: '14px', fontStyle: 'normal', fontWeight: '500' }}>Managing Personal Finances</p>
+      </div>
+    </div>
 
 
-               <div className=' w-[154px] h-[160px]'>
-                <div style={{ display: 'flex', padding: '20px 14px', flexDirection: 'column', alignItems: 'center', gap: '14px', background: 'var(--grey-10, #1A1A1A)', borderRadius: '12px', flex: '1 0 0', border: '1px solid #262626', }}>
-                  <div style={{ borderRadius: '12px', border: '1px solid var(--grey-15, #262626', background: 'var(--grey-19, 1A1A1A)',  }}  >
-                    <img src={Frame} alt='frame' style={{ borderRadius: '50px', border: '1px solid #CAFF33', background: 'linear-gradient(180deg, rgba(202, 255, 51, 0.10) -66.22%, rgba(202, 255, 51, 0.00) 85.46%)', padding: '12px', }} />
-                  </div>
-                  <p style={{ color: 'var(--absolute-white, #FFF)', fontSize: '14px', fontStyle: 'normal', fontWeight: '500' }}>Managing Personal Finances</p>
-                </div>
-                </div>
+
 
                 <div className=' w-[154px] h-[160px] '>
                 <div style={{ display: 'flex',padding: '20px 14px',flexDirection: 'column',alignItems: 'center',gap: '14px',background: 'var(--grey-10, #1A1A1A)',borderRadius: '12px',flex: '1 0 0',border: '1px solid #262626'}}>
