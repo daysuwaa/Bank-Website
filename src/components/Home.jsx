@@ -142,7 +142,7 @@ const Home = () => {
         </div>
 
         {/* Use case ss*/}
-         <div style={{ textAlign: 'center' }}>
+         <div style={{ textAlign: 'center' }}className='block lg:hidden md:hidden'>
           <p style={{ color: 'var(--green-60, #CAFF33)', fontSize: '28px', fontFamily: 'lexend' }} className='font-semibold '>Use case</p>
           <p style={{ color: 'var(--grey-70, #B3B3B3)', fontFamily: 'lexend', fontSize: '14px', paddingBottom: '3rem' }}>At YourBank, we cater to the diverse needs of individuals and businesses alike, offering a wide range of financial solutions</p>
         {/* <div style={{justifyContent:'center',}}> */}
