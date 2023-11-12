@@ -142,44 +142,98 @@ const Home = () => {
         </div>
 
         {/* Use case ss*/}
-        <div style={{ textAlign: 'center' }}>
+         <div style={{ textAlign: 'center' }}>
           <p style={{ color: 'var(--green-60, #CAFF33)', fontSize: '28px', fontFamily: 'lexend' }} className='font-semibold '>Use case</p>
-          <p style={{ color: 'var(--grey-70, #B3B3B3)', fontFamily: 'lexend', fontSize: '14px', paddingBottom: '2rem' }}>At YourBank, we cater to the diverse needs of individuals and businesses alike, offering a wide range of financial solutions</p>
+          <p style={{ color: 'var(--grey-70, #B3B3B3)', fontFamily: 'lexend', fontSize: '14px', paddingBottom: '3rem' }}>At YourBank, we cater to the diverse needs of individuals and businesses alike, offering a wide range of financial solutions</p>
+        {/* <div style={{justifyContent:'center',}}> */}
 
-          <div style={{ border: '1px solid #262626', borderRadius: '12px', width: '358px', height: '350px' }}>
-            
-              <div style={{ display: 'grid', alignItems: 'center', gridTemplateColumns: '1fr 1fr', gridTemplateRows: '1fr 1fr', gap: '10px', padding: '1rem' }}>
+          <div style={{ border: '1px solid #262626', borderRadius: '12px', margin: '0 auto', width:'358px', height:'370px', marginLeft:'-2rem'}}>
+          <div style={{ display: 'grid', alignItems: 'center', gridTemplateColumns: '1fr 1fr', gridTemplateRows: '1fr 1fr', padding: '1rem', justifyContent: 'center', }}>
 
-                <div style={{ display: 'flex', padding: '20px 14px', flexDirection: 'column', alignItems: 'center', gap: '14px', background: 'var(--grey-10, #1A1A1A)', borderRadius: '12px', flex: '1 0 0', border: '1px solid #262626' }}>
-                  <div style={{ borderRadius: '12px', border: '1px solid var(--grey-15, #262626', background: 'var(--grey-19, 1A1A1A)' }}  >
+
+               <div className=' w-[154px] h-[160px]'>
+                <div style={{ display: 'flex', padding: '20px 14px', flexDirection: 'column', alignItems: 'center', gap: '14px', background: 'var(--grey-10, #1A1A1A)', borderRadius: '12px', flex: '1 0 0', border: '1px solid #262626', }}>
+                  <div style={{ borderRadius: '12px', border: '1px solid var(--grey-15, #262626', background: 'var(--grey-19, 1A1A1A)',  }}  >
                     <img src={Frame} alt='frame' style={{ borderRadius: '50px', border: '1px solid #CAFF33', background: 'linear-gradient(180deg, rgba(202, 255, 51, 0.10) -66.22%, rgba(202, 255, 51, 0.00) 85.46%)', padding: '12px', }} />
                   </div>
                   <p style={{ color: 'var(--absolute-white, #FFF)', fontSize: '14px', fontStyle: 'normal', fontWeight: '500' }}>Managing Personal Finances</p>
                 </div>
+                </div>
 
+                <div className=' w-[154px] h-[160px] '>
                 <div style={{ display: 'flex',padding: '20px 14px',flexDirection: 'column',alignItems: 'center',gap: '14px',background: 'var(--grey-10, #1A1A1A)',borderRadius: '12px',flex: '1 0 0',border: '1px solid #262626'}}>
                  <div style={{ borderRadius: '12px',border: '1px solid var(--grey-15, #262626)',background: 'var(--grey-19, #1A1A1A)'}}>
                   <img src={Frame2}alt='frame' style={{ borderRadius: '50px', border: '1px solid #CAFF33', background: 'linear-gradient(180deg, rgba(202, 255, 51, 0.10) -66.22%, rgba(202, 255, 51, 0.00) 85.46%)',padding: '12px' }}/>
                </div> 
                <p style={{color: 'var(--absolute-white, #FFF)',fontSize: '14px', fontStyle: 'normal',fontWeight: '500'  }}>Saving for the <br />Future</p></div>
-
+</div>
+               <div className='  w-[154px] h-[160px]'>
               <div style={{display: 'flex',padding: '20px 14px',flexDirection: 'column',alignItems: 'center',gap: '14px',background: 'var(--grey-10, #1A1A1A)',borderRadius: '12px',flex: '1 0 0',border: '1px solid #262626'}}>
                 <div style={{borderRadius: '12px',border: '1px solid var(--grey-15, #262626)',background: 'var(--grey-19, #1A1A1A)'}}>
                   <img src={House}alt='frame'style={{borderRadius: '50px',border: '1px solid #CAFF33',background: 'linear-gradient(180deg, rgba(202, 255, 51, 0.10) -66.22%, rgba(202, 255, 51, 0.00) 85.46%)',padding: '12px' }}/>
               </div>
               <p style={{color: 'var(--absolute-white, #FFF)',fontSize: '14px',fontStyle: 'normal',fontWeight: '500'}}>House Ownership</p>
+            </div> 
             </div>
-
+            <div className=' w-[154px] h-[160px]'>
             <div style={{display: 'flex',padding: '20px 14px',flexDirection: 'column',alignItems: 'center',gap: '14px',background: 'var(--grey-10, #1A1A1A)',borderRadius: '12px',flex: '1 0 0',border: '1px solid #262626'}}>
             <div style={{borderRadius: '12px',border: '1px solid var(--grey-15, #262626)',background: 'var(--grey-19, #1A1A1A)'}}>
               <img src={Cash} alt='frame' style={{borderRadius: '50px',border: '1px solid #CAFF33',background: 'linear-gradient(180deg, rgba(202, 255, 51, 0.10) -66.22%, rgba(202, 255, 51, 0.00) 85.46%)',padding: '12px' }}/>
            </div>
             <p style={{ color: 'var(--absolute-white, #FFF)',fontSize: '14px',fontStyle: 'normal',fontWeight: '500'}}>Education Funding</p>
          </div>
+         </div>
+         </div>
 
             
       </div>
-   </div>
+   {/* </div>   */}
+
+
+
+     {/* <div style={{ textAlign: 'center' }}>
+      <p style={{ color: 'var(--green-60, #CAFF33)', fontSize: '28px', fontFamily: 'lexend' }} className='font-semibold'>Use case</p>
+      <p style={{ color: 'var(--grey-70, #B3B3B3)', fontFamily: 'lexend', fontSize: '14px', paddingBottom: '2rem' }}>At YourBank, we cater to the diverse needs of individuals and businesses alike, offering a wide range of financial solutions</p>
+
+      <div style={{ border: '1px solid #262626', borderRadius: '12px', width: '358px', height: '350px', margin: '0 auto' }}>
+        <div style={{ display: 'grid', alignItems: 'center', gridTemplateColumns: '1fr 1fr', gridTemplateRows: '1fr 1fr', gap: '10px', padding: '1rem', justifyContent: 'center' }}>
+          <div style={{ display: 'flex', padding: '20px 14px', flexDirection: 'column', alignItems: 'center', gap: '14px', background: 'var(--grey-10, #1A1A1A)', borderRadius: '12px', flex: '1 0 0', border: '1px solid #262626' }}>
+            <div style={{ borderRadius: '12px', border: '1px solid var(--grey-15, #262626', background: 'var(--grey-19, 1A1A1A)' }}>
+              <img src={Frame} alt='frame' style={{ borderRadius: '50px', border: '1px solid #CAFF33', background: 'linear-gradient(180deg, rgba(202, 255, 51, 0.10) -66.22%, rgba(202, 255, 51, 0.00) 85.46%)', padding: '12px' }} />
+            </div>
+            <p style={{ color: 'var(--absolute-white, #FFF)', fontSize: '14px', fontStyle: 'normal', fontWeight: '500' }}>Managing Personal Finances</p>
+          </div>
+
+          <div style={{ display: 'flex', padding: '20px 14px', flexDirection: 'column', alignItems: 'center', gap: '14px', background: 'var(--grey-10, #1A1A1A)', borderRadius: '12px', flex: '1 0 0', border: '1px solid #262626' }}>
+            <div style={{ borderRadius: '12px', border: '1px solid var(--grey-15, #262626)', background: 'var(--grey-19, #1A1A1A)' }}>
+              <img src={Frame2} alt='frame' style={{ borderRadius: '50px', border: '1px solid #CAFF33', background: 'linear-gradient(180deg, rgba(202, 255, 51, 0.10) -66.22%, rgba(202, 255, 51, 0.00) 85.46%)', padding: '12px' }} />
+            </div>
+            <p style={{ color: 'var(--absolute-white, #FFF)', fontSize: '14px', fontStyle: 'normal', fontWeight: '500' }}>Saving for the <br />Future</p>
+          </div>
+
+          <div style={{ display: 'flex', padding: '20px 14px', flexDirection: 'column', alignItems: 'center', gap: '14px', background: 'var(--grey-10, #1A1A1A)', borderRadius: '12px', flex: '1 0 0', border: '1px solid #262626' }}>
+            <div style={{ borderRadius: '12px', border: '1px solid var(--grey-15, #262626)', background: 'var(--grey-19, #1A1A1A)' }}>
+              <img src={House} alt='frame' style={{ borderRadius: '50px', border: '1px solid #CAFF33', background: 'linear-gradient(180deg, rgba(202, 255, 51, 0.10) -66.22%, rgba(202, 255, 51, 0.00) 85.46%)', padding: '12px' }} />
+            </div>
+            <p style={{ color: 'var(--absolute-white, #FFF)', fontSize: '14px', fontStyle: 'normal', fontWeight: '500' }}>House Ownership</p>
+          </div>
+
+          <div style={{ display: 'flex', padding: '20px 14px', flexDirection: 'column', alignItems: 'center', gap: '14px', background: 'var(--grey-10, #1A1A1A)', borderRadius: '12px', flex: '1 0 0', border: '1px solid #262626' }}>
+            <div style={{ borderRadius: '12px', border: '1px solid var(--grey-15, #262626)', background: 'var(--grey-19, #1A1A1A)' }}>
+              <img src={Cash} alt='frame' style={{ borderRadius: '50px', border: '1px solid #CAFF33', background: 'linear-gradient(180deg, rgba(202, 255, 51, 0.10) -66.22%, rgba(202, 255, 51, 0.00) 85.46%)', padding: '12px' }} />
+            </div>
+            <p style={{ color: 'var(--absolute-white, #FFF)', fontSize: '14px', fontStyle: 'normal', fontWeight: '500' }}>Education Funding</p>
+          </div>
+        </div>
+      </div>
+    </div> 
+
+ */}
+
+
+
+
+
           <div>
             <p style={{color: 'var(--absolute-white, #FFF)',fontSize: '20px',fontStyle: 'normal',fontWeight: '500', paddingTop:'2rem', fontFamily:'lexend'}}>For Individuals</p>
           <p style={{color: 'var(--grey-70, #B3B3B3)',fontFamily: 'lexend',fontSize: '14px', paddingBottom: '2rem'}}>For individuals, our mortgage services pave the way to homeownership, and our flexible personal loans provide vital support during various life milestones. We also prioritize retirement planning, ensuring a financially secure future for our customers</p>
@@ -188,17 +242,17 @@ const Home = () => {
         <div>
           <h1 style={{color: 'var(--green-60, #CAFF33)', textAlign:'center', fontSize:'40px'}} className='font-bold'>78%</h1>
           <p style={{color:' var(--grey-70, #B3B3B3)', textAlign:'center', fontSize:'14px' , fontFamily:'lexend'}}>Secure Retirement Planning</p>
-          <p className='pt-3 text-lg' style={{color:' var(--grey-15, #262626)'}}>-------------------------------</p>
+          <p className='pt-3 text-lg' style={{color:' var(--grey-15, #262626)'}}>-----------------------</p>
         </div>
         <div>
           <h1 style={{color: 'var(--green-60, #CAFF33)', textAlign:'center', fontSize:'40px'}} className='font-bold'>63%</h1>
           <p style={{color:' var(--grey-70, #B3B3B3)', textAlign:'center', fontSize:'14px' , fontFamily:'lexend'}}>Manageable Debts Consolidation</p>
-          <p className='pt-3 text-lg' style={{color:' var(--grey-15, #262626)'}}>--------------------------------</p>
+          <p className='pt-3 text-lg' style={{color:' var(--grey-15, #262626)'}}>------------------------</p>
         </div>
         <div>
           <h1 style={{color: 'var(--green-60, #CAFF33)', textAlign:'center', fontSize:'40px'}} className='font-bold'>91%</h1>
           <p style={{color:' var(--grey-70, #B3B3B3)', textAlign:'center', fontSize:'14px' , fontFamily:'lexend'}}>Reducing Financial burdens</p>
-          <p className='pt-3 text-lg' style={{color:' var(--grey-15, #262626)'}}>---------------------------------</p>
+          <p className='pt-3 text-lg' style={{color:' var(--grey-15, #262626)'}}>------------------------</p>
         </div>
         <div style={{display:'flex', padding:'14px 20px' ,  justifyContent:'center'}}>
         <button style={{ borderRadius: '82px', border: '1px solid var(--grey-15, #262626)', background: 'var(--grey-11, #1C1C1C)', width: '118px', height: '48px', }}>
