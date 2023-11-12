@@ -145,9 +145,8 @@ const Home = () => {
          <div style={{ textAlign: 'center' }}className='block lg:hidden md:hidden'>
           <p style={{ color: 'var(--green-60, #CAFF33)', fontSize: '28px', fontFamily: 'lexend' }} className='font-semibold '>Use case</p>
           <p style={{ color: 'var(--grey-70, #B3B3B3)', fontFamily: 'lexend', fontSize: '14px', paddingBottom: '3rem' }}>At YourBank, we cater to the diverse needs of individuals and businesses alike, offering a wide range of financial solutions</p>
-        {/* <div style={{justifyContent:'center',}}> */}
-
-          <div style={{ border: '1px solid #262626', borderRadius: '12px', margin: '0 auto', width:'358px', height:'370px', marginLeft:'-2rem'}}>
+      
+          <div style={{ border: '1px solid #262626', borderRadius: '12px', width:'358px', height:'370px', margin:'auto'}}>
           <div style={{ display: 'grid', alignItems: 'center', gridTemplateColumns: '1fr 1fr', gridTemplateRows: '1fr 1fr', padding: '1rem', justifyContent: 'center', }}>
 
 
@@ -166,7 +165,7 @@ const Home = () => {
                   <img src={Frame2}alt='frame' style={{ borderRadius: '50px', border: '1px solid #CAFF33', background: 'linear-gradient(180deg, rgba(202, 255, 51, 0.10) -66.22%, rgba(202, 255, 51, 0.00) 85.46%)',padding: '12px' }}/>
                </div> 
                <p style={{color: 'var(--absolute-white, #FFF)',fontSize: '14px', fontStyle: 'normal',fontWeight: '500'  }}>Saving for the <br />Future</p></div>
-</div>
+            </div>
                <div className='  w-[154px] h-[160px]'>
               <div style={{display: 'flex',padding: '20px 14px',flexDirection: 'column',alignItems: 'center',gap: '14px',background: 'var(--grey-10, #1A1A1A)',borderRadius: '12px',flex: '1 0 0',border: '1px solid #262626'}}>
                 <div style={{borderRadius: '12px',border: '1px solid var(--grey-15, #262626)',background: 'var(--grey-19, #1A1A1A)'}}>
