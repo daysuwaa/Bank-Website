@@ -336,7 +336,6 @@ const Home = () => {
         <div>
           <div className='grid grid-cols-1 grid-rows-4'>
             <div>
-
               dlmc
             </div>
             <div>
