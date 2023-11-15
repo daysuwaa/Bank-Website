@@ -407,20 +407,18 @@ const Home = () => {
               <p style={{color:'var(--grey-70, #B3B3B3)', fontFamily:'lexend', fontSize:'14px', letterSpacing:'-0.084px', lineHeight:'21px', paddingTop:'15px'}}>At YourBank, we prioritize the security of your transactions and personal information. We employ industry-leading encryption and multi-factor authentication to enusre that your data is protected. Additionally, we regularly udate our security measures to stay ahead of emerging threats You can bank with confidence knowing that we have robust security systems in place.</p>
             </div>
 
-            <div className='flex'>
-            <button style={{ borderRadius: '100px', padding: '14px 20px', justifyContent: 'center', alignItems: 'center', gap: '4px', border: '1px solid var(--grey-15, #262626)' }} className='w-[154px] h-[49px] pt-[10px]'>
-              <p style={{ color: 'white', textAlign: 'center', fontFamily: 'lexend', fontSize: '14px', fontWeight: '400', lineHeight: '150%' }} className="">
+            <div className='flex justify-center pt-[18px]'>
+            <button style={{display:'flex', borderRadius: '100px', padding: '14px 20px', justifyContent: 'center', alignItems: 'center',  gap: '4px', border: '1px solid var(--grey-15, #262626)' }} className='w-[154px] h-[49px]'>
+              <p style={{ color: 'white', fontFamily: 'lexend', fontSize: '14px', fontWeight: '400', lineHeight: '150%' }} className="">
               Load All FAQ's
               </p>
               <img src={DownA} alt='down'/>
             </button>
             </div>
-
           </div>
         </div>
-   
+   </div>
 
- </div>
 </div>
 </div>
 
