@@ -88,9 +88,9 @@ const Home = () => {
         {/* end of ss */}
 
         {/* large screens */}
-        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start' }} className='hidden lg:block'>
-          <p style={{ color: 'var(--absolute-white, #FFF)', fontSize: '38px', fontStyle: 'normal', fontWeight: '500' }} className='font-semibold hidden lg:block'>
-            Our <span style={{ color: 'var(--green-60, #CAFF33)' }} className='font-semibold '>Products</span>
+        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start' }} className='hidden lg:block mx-[4rem]'>
+          <p style={{ color: 'var(--absolute-white, #FFF)', fontSize: '38px', fontStyle: 'normal', fontWeight: '500' }} className='font-semibold hidden lg:block '>
+            Our <span style={{ color: 'var(--green-60, #CAFF33)' }} className='font-semibold m'>Products</span>
           </p>
           <div className='hidden lg:block'>
             <div className=' flex  '>
@@ -149,7 +149,7 @@ const Home = () => {
         {/* Use case ss*/}
          <div style={{ textAlign: 'center', }}className='block sm:block lg:hidden md:block'>
           <p style={{ color: 'var(--green-60, #CAFF33)', fontSize: '28px', fontFamily: 'lexend' }} className='font-semibold '>Use case</p>
-          <p style={{ color: 'var(--grey-70, #B3B3B3)', fontFamily: 'lexend', fontSize: '14px', paddingBottom: '3rem' }}>At YourBank, we cater to the diverse needs of individuals and businesses alike, offering a wide range of financial solutions</p>
+          <p style={{ color: 'var(--grey-70, #B3B3B3)', fontFamily: 'lexend', fontSize: '14px', paddingBottom: '3rem' }}className='mx-7'>At YourBank, we cater to the diverse needs of individuals and businesses alike, offering a wide range of financial solutions</p>
      
           <div style={{ border: '1px solid #262626', borderRadius: '12px', width:'358px', height:'370px', margin:'auto', position: 'relative'}}>
   <img src={Abstract} alt='abs' style={{ width: '118px', height: '112px', transform: 'rotate(-90deg)', position: 'absolute' }} />
@@ -311,7 +311,7 @@ const Home = () => {
       </p>
       <div style={{ display: 'flex', flexDirection: 'column', gap: '20px',  }} className='grid lg:grid-cols-2 md:grid-cols-2 gap-4 sm:grid-cols-1'>
         <div>
-          <p style={{ color: 'var(--grey-70, #B3B3B3)', fontFamily: 'Lexend', fontStyle: 'normal', fontWeight: '300', fontSize: '14px', }} className=' text-center lg:hidden'>
+          <p style={{ color: 'var(--grey-70, #B3B3B3)', fontFamily: 'Lexend', fontStyle: 'normal', fontWeight: '300', fontSize: '14px', }} className=' text-center lg:hidden mx-7'>
           Experience a host of powerful features at YourBank, including seamless online banking, secure transactions, and personalized financial insights, all designed to enhance your banking experience
           </p>
         </div>
@@ -422,12 +422,12 @@ const Home = () => {
    </div>
 
    {/* start of large screen  */}
-   <div className='lg:block  hidden'>
-          <p style={{ color: 'var(--green-60, #CAFF33)', fontSize: '38px', fontFamily: 'lexend' }} className='font-semibold '>Use case</p>
-          <p style={{ color: 'var(--grey-70, #B3B3B3)', fontFamily: 'lexend', fontSize: '16px', paddingBottom: '3rem' }}>At YourBank, we cater to the diverse needs of individuals and businesses alike, offering a wide range of financial solutions</p>
+   <div className='lg:block  hidden '>
+          <p style={{ color: 'var(--green-60, #CAFF33)', fontSize: '38px', fontFamily: 'lexend' }} className='font-semibold mx-[4rem]'>Use case</p>
+          <p style={{ color: 'var(--grey-70, #B3B3B3)', fontFamily: 'lexend', fontSize: '16px', paddingBottom: '3rem', margin:'0 3rem' }}>At YourBank, we cater to the diverse needs of individuals and businesses alike, offering a wide range of financial solutions</p>
    
     <div className='grid grid-cols-2'>
-    <div style={{ border: '1px solid #262626', borderRadius: '12px', width:'610px', height:'414px',  position: 'relative'}}>
+    <div style={{ border: '1px solid #262626', borderRadius: '12px', width:'610px', height:'414px',  position: 'relative',  margin:'0 5rem'}}>
   <img src={Abstract} alt='abs' style={{ width: '118px', height: '112px', transform: 'rotate(-90deg)', position: 'absolute' }} />
   <div style={{ display: 'grid', alignItems: 'center', gridTemplateColumns: '1fr 1fr', gridTemplateRows: '1fr 1fr', padding: '1rem', justifyContent: 'center', position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', gap:'14px', paddingTop:'3.2rem' }}>
 
@@ -514,7 +514,7 @@ const Home = () => {
     
      
     <div className='grid grid-cols-2 '>
-    <div style={{ border: '1px solid #262626', borderRadius: '12px', width:'610px', height:'414px',  position: 'relative'}}>
+    <div style={{ border: '1px solid #262626', borderRadius: '12px', width:'610px', height:'414px',  position: 'relative' ,  margin:'0 5rem'}}>
       <div className='px-5'>
     <p style={{color: 'var(--absolute-white, #FFF)',fontSize: '20px',fontStyle: 'normal',fontWeight: '500', paddingTop:'2rem', fontFamily:'lexend'}}>For Business</p>
   <p style={{color: 'var(--grey-70, #B3B3B3)',fontFamily: 'lexend',fontSize: '16px', paddingBottom: '2rem'}}> For businesses, we empower growth with working capital solutions that optimize cash flow, and our tailored financing options fuel business expansion. Whatever your financial aspirations, YourBank is committed to providing the right tools and support to achieve them</p>
@@ -583,16 +583,137 @@ const Home = () => {
             <p style={{ color: 'var(--absolute-white, #FFF)',fontSize: '14px',fontStyle: 'normal',fontWeight: '500'}}>Business Expansion</p>
          </div>
          </div>
-        
-       
-       
-         
+           
       </div>
-
 
       </div> 
    </div>
+  
+   
 </div>
+ {/* our features */}
+<div>
+   <p style={{ color: 'var(--absolute-white, #FFF)', fontSize: '28px', fontStyle: 'normal', fontWeight: '500', paddingTop:'1rem' }} className='font-semibold mx-[4rem]'>
+        Our <span style={{ color: 'var(--green-60, #CAFF33)' }} className='font-semibold '>Features</span>
+      </p>
+     
+        <div>
+          <p style={{ color: 'var(--grey-70, #B3B3B3)', fontFamily: 'Lexend', fontStyle: 'normal', fontWeight: '300', fontSize: '14px', }} className='  mx-[4rem]'>
+          Experience a host of powerful features at YourBank, including seamless online banking, secure transactions, and personalized financial <br></br>insights, all designed to enhance your banking experience
+          </p>
+        </div>
+
+        <div className='grid grid-cols-3 mx-[5.4rem] my-[3rem]'>
+        <div className='w-[245px] h-[267px]'>
+          <div className='grid grid-rows-3'>
+            <div style={{padding:'14px 20px', alignItems:'center', gap:'10px'}}>
+              <button className='w-[165px] h-[49px]' style={{borderRadius:'100px', border:'1px solid var(--grey-15, #262626)', background:'var(--grey-10, #1A1A1A)'}}>
+                <p style={{color:'var(--green-60, #CAFF33'}}>Online Banking</p>
+              </button>
+          </div>
+
+          <div style={{padding:'14px 20px', alignItems:'center', gap:'10px'}}>
+              <button className='w-[165px] h-[49px]' style={{borderRadius:'100px', border:'1px solid var(--grey-15, #262626)', background:'var(--grey-10, #1A1A1A)'}}>
+                <p style={{color:'white'}}>Financial Tools</p>
+              </button>
+          </div>
+
+          <div style={{padding:'14px 20px', alignItems:'center', gap:'10px'}}>
+              <button className='w-[165px] h-[49px]' style={{borderRadius:'100px', border:'1px solid var(--grey-15, #262626)', background:'var(--grey-10, #1A1A1A)'}}>
+                <p style={{color:'white'}}>Customer Support</p>
+              </button>
+          </div>
+        </div>
+        </div>
+
+
+        <div className='grid grid-rows-2 '>
+         <div className='pb-9'>
+            <div style={{borderRadius:'10px', border:'1px solid var(--grey-15, #262626)', background:'var(--grey-11, #1C1C1C)',padding:'2rem 2rem'}} className='w-[407.5px] h-[227px] '>
+            <div className='flex'>
+              <h1 style={{color:'var(--absolute-white, #FFF)', fontFamily:'lexend', fontSize:'18px', fontStyle:'normal', lineHeight:'27px', flex:'1 0 0',}}>24/7 Account Access</h1>
+              <img src={ArrowUp} alt='arrow' className='w-[24px] h-[24px] '/>
+              </div>
+              <p style={{color:'var(--grey-70, #B3B3B3)', fontFamily:'lexend', fontSize:'14px', letterSpacing:'-0.084px', lineHeight:'21px', paddingTop:'15px'}}>Enjoy the convenience of accessing your accounts anytime, anywhere through our secure online banking platform. Check balances, transfer funds, and pay bills with ease.</p>
+          </div>
+          </div>
+
+          <div style={{borderRadius:'10px', border:'1px solid var(--grey-15, #262626)', background:'var(--grey-11, #1C1C1C)',padding:'2rem 2rem'}} className='w-[407.5px] h-[227px]'>
+            <div className='flex'>
+              <h1 style={{color:'var(--absolute-white, #FFF)', fontFamily:'lexend', fontSize:'18px', fontStyle:'normal', lineHeight:'27px', flex:'1 0 0',}}>Secure Transactions </h1>
+              <img src={ArrowUp} alt='arrow' className='w-[24px] h-[24px] '/>
+              </div>
+              <p style={{color:'var(--grey-70, #B3B3B3)', fontFamily:'lexend', fontSize:'14px', letterSpacing:'-0.084px', lineHeight:'21px', paddingTop:'15px'}}>Stay connected to your finances on the go with our user-friendly mobile banking app. Easily manage your accounts, deposit checks, and make payments from your smartphone or tablet.</p>
+          </div>
+        </div>
+
+        <div className='grid grid-rows-2 '>
+        <div style={{borderRadius:'10px', border:'1px solid var(--grey-15, #262626)', background:'var(--grey-11, #1C1C1C)',padding:'2rem 2rem'}} className='w-[407.5px] h-[227px]'>
+            <div className='flex'>
+              <h1 style={{color:'var(--absolute-white, #FFF)', fontFamily:'lexend', fontSize:'18px', fontStyle:'normal', lineHeight:'27px', flex:'1 0 0',}}>Mobile Banking App</h1>
+              <img src={ArrowUp} alt='arrow' className='w-[24px] h-[24px] '/>
+              </div>
+              <p style={{color:'var(--grey-70, #B3B3B3)', fontFamily:'lexend', fontSize:'14px', letterSpacing:'-0.084px', lineHeight:'21px', paddingTop:'15px'}}>Stay connected to your finances on the go with our user-friendly mobile banking app. Easily manage your accounts, deposit checks, and make payments from your smartphone or tablet.</p>
+          </div>
+          
+          <div style={{borderRadius:'10px', border:'1px solid var(--grey-15, #262626)', background:'var(--grey-11, #1C1C1C)',padding:'2rem 2rem'}} className='w-[407.5px] h-[227px]'>
+            <div className='flex'>
+              <h1 style={{color:'var(--absolute-white, #FFF)', fontFamily:'lexend', fontSize:'18px', fontStyle:'normal', lineHeight:'27px', flex:'1 0 0',}}>Bill Pay and Transfer</h1>
+              <img src={ArrowUp} alt='arrow' className='w-[24px] h-[24px] '/>
+              </div>
+              <p style={{color:'var(--grey-70, #B3B3B3)', fontFamily:'lexend', fontSize:'14px', letterSpacing:'-0.084px', lineHeight:'21px', paddingTop:'15px'}}>Save time and avoid late fees with our convenient bill pay service. Set up recurring payments or make one-time transfers between your accounts with just a few clicks.</p>
+          </div>
+         
+        </div>
+        </div>
+   </div>
+
+   {/* FAQ */}
+   <div className='px-[4rem]'>
+   <p style={{ color: 'var(--green-60, #CAFF33)', fontSize: '38px', fontStyle: 'normal', fontWeight: '500', lineHeight: '57px', textAlign:'start'  }} className='font-extrabold'>
+             Frequently <span style={{ color: 'var(--absolute-white, #FFF)'}}>Asked Questions</span>
+              </p>
+              <p style={{color:'var(--grey-70, #B3B3B3)', fontFamily:'lexend', fontSize:'16px', letterSpacing:'-0.084px', lineHeight:'21px', paddingTop:'15px'}}> Still you have any questions? Contact our Team via support@yourbank.com</p>
+
+              <div className='pt-5'>
+                <div className='grid grid-cols-2 grid-rows-2'>
+
+             
+                <div style={{borderRadius:'10px', border:'1px solid var(--grey-15, #262626)', background: 'var(--grey-11, #1C1C1C)' , padding:'30px' }}>
+             <h1 style={{color:'var(--absolute-white, #FFF)', fontFamily:'lexend', fontSize:'18px', fontStyle:'normal', lineHeight:'27px', flex:'1 0 0' }}>How do I open an account with YourBank?</h1>
+            <p className='w-[278px] text-gray-400'>-------------------------------------</p>
+             <p style={{color:'var(--grey-70, #B3B3B3)', fontFamily:'lexend', fontSize:'14px', letterSpacing:'-0.084px', lineHeight:'21px', paddingTop:'15px'}}>Opening an account with YourBank is easy. Simply visit our website and click on the "Open an Account" button. Follow the prompts, provide the required information, and complete the application process. If you have any questions or need assistance, our customer support team is available to help.</p>
+       </div>
+      
+       
+    
+           <div style={{borderRadius:'10px', border:'1px solid var(--grey-15, #262626)', background: 'var(--grey-11, #1C1C1C)' , padding:'30px' }}>
+              <h1 style={{color:'var(--absolute-white, #FFF)', fontFamily:'lexend', fontSize:'18px', fontStyle:'normal', lineHeight:'27px', flex:'1 0 0' }}>What documents do I need to provide to apply for a loan?</h1>
+             <p className='w-[278px] text-gray-400'>------------------------------------</p>
+              <p style={{color:'var(--grey-70, #B3B3B3)', fontFamily:'lexend', fontSize:'14px', letterSpacing:'-0.084px', lineHeight:'21px', paddingTop:'15px'}}>The documents required for a loan application may vary depending on the type of loan you are applying for. Generally, you will need to provide identification documents (such as a passport or driver's license), proof of income (such as pay stubs or tax returns), and information about the collateral (if applicable). Our loan officers will guide you through the specific requirements during the application process.</p>
+            </div>
+           
+        
+         
+         
+            <div style={{borderRadius:'10px', border:'1px solid var(--grey-15, #262626)', background: 'var(--grey-11, #1C1C1C)' , padding:'30px' }}>
+              <h1 style={{color:'var(--absolute-white, #FFF)', fontFamily:'lexend', fontSize:'18px', fontStyle:'normal', lineHeight:'27px', flex:'1 0 0' }}>How can I access my accounts online?</h1>
+             <p className='w-[278px] text-gray-400'>-----------------------------------</p>
+              <p style={{color:'var(--grey-70, #B3B3B3)', fontFamily:'lexend', fontSize:'14px', letterSpacing:'-0.084px', lineHeight:'21px', paddingTop:'15px'}}>Accessing your accounts online is simple and secure. Visit our website and click on the "Login" button. Enter your username and password to access your accounts. If you haven't registered for online banking, click on the "Enroll Now" button and follow the registration process. If you need assistance, our customer support team is available to guide you.</p>
+            </div>
+          
+
+         
+            <div style={{borderRadius:'10px', border:'1px solid var(--grey-15, #262626)', background: 'var(--grey-11, #1C1C1C)' , padding:'30px' }}>
+              <h1 style={{color:'var(--absolute-white, #FFF)', fontFamily:'lexend', fontSize:'18px', fontStyle:'normal', lineHeight:'27px', flex:'1 0 0' }}>Are my transactions and personal information secure?</h1>
+             <p className='w-[278px] text-gray-400'>-----------------------------------</p>
+              <p style={{color:'var(--grey-70, #B3B3B3)', fontFamily:'lexend', fontSize:'14px', letterSpacing:'-0.084px', lineHeight:'21px', paddingTop:'15px'}}>At YourBank, we prioritize the security of your transactions and personal information. We employ industry-leading encryption and multi-factor authentication to enusre that your data is protected. Additionally, we regularly udate our security measures to stay ahead of emerging threats You can bank with confidence knowing that we have robust security systems in place.</p>
+            </div>
+            
+</div>
+            
+              </div>
+   </div>
 
 
 
