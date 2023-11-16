@@ -222,7 +222,7 @@ const Home = () => {
 
 
 {/* for businesss */}
-<div style={{ textAlign: 'center' }} className='block lg:hidden md:hidden'>
+{/* <div style={{ textAlign: 'center' }} className='block lg:hidden md:hidden'>
   <div style={{ border: '1px solid #262626', borderRadius: '12px', width: '358px', height: '370px', margin: 'auto', position: 'relative' }}>
     <img src={Abstract} alt='abs' style={{ width: '118px', height: '112px', transform: 'rotate(-90deg)', position: 'absolute' }} />
     <div style={{ display: 'grid', alignItems: 'center', gridTemplateColumns: '1fr 1fr', gridTemplateRows: '1fr 1fr', padding: '1rem', justifyContent: 'center', position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', gap: '14px', paddingTop: '2.5rem' }}>
@@ -289,7 +289,78 @@ const Home = () => {
 </div>
 
 
+ */}
 
+ {/* for businesss */}
+
+ <div style={{ textAlign: 'center' }}className='block lg:hidden md:hidden'>
+<div style={{ border: '1px solid #262626', borderRadius: '12px', width:'358px', height:'370px', margin:'auto', position: 'relative'}}>
+ <img src={Abstract} alt='abs' style={{ width: '118px', height: '112px', transform: 'rotate(-90deg)', position: 'absolute' }} />
+ <div style={{ display: 'grid', alignItems: 'center', gridTemplateColumns: '1fr 1fr', gridTemplateRows: '1fr 1fr', padding: '1rem', justifyContent: 'center', position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', gap:'14px', paddingTop:'2.5rem' }}>
+   <div className=' w-[154px] h-[160px]'>
+     <div style={{ display: 'flex', padding: '20px 14px', flexDirection: 'column', alignItems: 'center', gap: '14px', background: 'var(--grey-10, #1A1A1A)', borderRadius: '12px', flex: '1 0 0', border: '1px solid #262626' }}>
+       <div style={{ borderRadius: '12px', border: '1px solid var(--grey-15, #262626)', background: 'var(--grey-19, 1A1A1A)' }}>
+         <img src={Start} alt='frame' style={{ borderRadius: '50px', border: '1px solid #CAFF33', background: 'linear-gradient(180deg, rgba(202, 255, 51, 0.10) -66.22%, rgba(202, 255, 51, 0.00) 85.46%)', padding: '12px' }} />
+       </div>
+       <p style={{ color: 'var(--absolute-white, #FFF)', fontSize: '14px', fontStyle: 'normal', fontWeight: '500' }}>Startups and Entrepreneurs</p>
+     </div>
+   </div>
+    <div className=' w-[154px] h-[160px] '>
+       <div style={{ display: 'flex',padding: '20px 14px',flexDirection: 'column',alignItems: 'center',gap: '14px',background: 'var(--grey-10, #1A1A1A)',borderRadius: '12px',flex: '1 0 0',border: '1px solid #262626'}}>
+          <div style={{ borderRadius: '12px',border: '1px solid var(--grey-15, #262626)',background: 'var(--grey-19, #1A1A1A)'}}>
+             <img src={Flow}alt='frame' style={{ borderRadius: '50px', border: '1px solid #CAFF33', background: 'linear-gradient(180deg, rgba(202, 255, 51, 0.10) -66.22%, rgba(202, 255, 51, 0.00) 85.46%)',padding: '12px' }}/>
+         </div> 
+              <p style={{color: 'var(--absolute-white, #FFF)',fontSize: '14px', fontStyle: 'normal',fontWeight: '500'  }}>Cash Flow Management</p></div>
+           </div>
+              <div className='  w-[154px] h-[160px]'>
+             <div style={{display: 'flex',padding: '20px 14px',flexDirection: 'column',alignItems: 'center',gap: '14px',background: 'var(--grey-10, #1A1A1A)',borderRadius: '12px',flex: '1 0 0',border: '1px solid #262626'}}>
+               <div style={{borderRadius: '12px',border: '1px solid var(--grey-15, #262626)',background: 'var(--grey-19, #1A1A1A)'}}>
+                 <img src={Business}alt='frame'style={{borderRadius: '50px',border: '1px solid #CAFF33',background: 'linear-gradient(180deg, rgba(202, 255, 51, 0.10) -66.22%, rgba(202, 255, 51, 0.00) 85.46%)',padding: '12px' }}/>
+             </div>
+             <p style={{color: 'var(--absolute-white, #FFF)',fontSize: '14px',fontStyle: 'normal',fontWeight: '500'}}>Business Expansion</p>
+           </div> 
+           </div>
+           <div className=' w-[154px] h-[160px]'>
+           <div style={{display: 'flex',padding: '20px 14px',flexDirection: 'column',alignItems: 'center',gap: '14px',background: 'var(--grey-10, #1A1A1A)',borderRadius: '12px',flex: '1 0 0',border: '1px solid #262626'}}>
+           <div style={{borderRadius: '12px',border: '1px solid var(--grey-15, #262626)',background: 'var(--grey-19, #1A1A1A)'}}>
+             <img src={Payment} alt='frame' style={{borderRadius: '50px',border: '1px solid #CAFF33',background: 'linear-gradient(180deg, rgba(202, 255, 51, 0.10) -66.22%, rgba(202, 255, 51, 0.00) 85.46%)',padding: '12px' }}/>
+          </div>
+           <p style={{ color: 'var(--absolute-white, #FFF)',fontSize: '14px',fontStyle: 'normal',fontWeight: '500'}}>Business Expansion</p>
+        </div>
+        </div>
+        </div>
+         </div>
+  
+
+         <div>
+           <p style={{color: 'var(--absolute-white, #FFF)',fontSize: '20px',fontStyle: 'normal',fontWeight: '500', paddingTop:'2rem', fontFamily:'lexend'}}>For Business</p>
+         <p style={{color: 'var(--grey-70, #B3B3B3)',fontFamily: 'lexend',fontSize: '14px', paddingBottom: '2rem'}}  className='px-10'> For businesses, we empower growth with working capital solutions that optimize cash flow, and our tailored financing options fuel business expansion. Whatever your financial aspirations, YourBank is committed to providing the right tools and support to achieve them</p>
+       </div>
+       <div style={{display:'flex', padding:'0px 50px', flexDirection:'column', gap:'30px', alignSelf:'stretch'}}>
+       <div>
+         <h1 style={{color: 'var(--green-60, #CAFF33)', textAlign:'center', fontSize:'40px'}} className='font-bold'>65%</h1>
+         <p style={{color:' var(--grey-70, #B3B3B3)', textAlign:'center', fontSize:'14px' , fontFamily:'lexend'}}>Cash Flow Management</p>
+         <p className='pt-3 text-lg' style={{color:' var(--grey-15, #262626)'}}>-----------------------</p>
+       </div>
+       <div>
+         <h1 style={{color: 'var(--green-60, #CAFF33)', textAlign:'center', fontSize:'40px'}} className='font-bold'>70%</h1>
+         <p style={{color:' var(--grey-70, #B3B3B3)', textAlign:'center', fontSize:'14px' , fontFamily:'lexend'}}>Drive Business Expansion</p>
+         <p className='pt-3 text-lg' style={{color:' var(--grey-15, #262626)'}}>------------------------</p>
+       </div>
+       <div>
+         <h1 style={{color: 'var(--green-60, #CAFF33)', textAlign:'center', fontSize:'40px'}} className='font-bold'>45%</h1>
+         <p style={{color:' var(--grey-70, #B3B3B3)', textAlign:'center', fontSize:'14px' , fontFamily:'lexend'}}>Streamline payroll processing</p>
+         <p className='pt-3 text-lg' style={{color:' var(--grey-15, #262626)'}}>------------------------</p>
+       </div>
+       <div style={{display:'flex', padding:'14px 20px' ,  justifyContent:'center'}}>
+       <button style={{ borderRadius: '82px', border: '1px solid var(--grey-15, #262626)', background: 'var(--grey-11, #1C1C1C)', width: '118px', height: '48px', }}>
+        <p className='text-white font-lexend'>Learn More</p>
+       </button>
+       </div>
+       </div>
+  </div> 
+
+ 
 
    {/* our features */}
    <p style={{ color: 'var(--absolute-white, #FFF)', fontSize: '28px', fontStyle: 'normal', fontWeight: '500', textAlign: 'center', paddingTop:'1rem' }} className='font-semibold block lg:hidden'>
