@@ -64,7 +64,7 @@ const Home = () => {
       <p style={{ color: 'var(--absolute-white, #FFF)', fontSize: '38px', fontStyle: 'normal', fontWeight: '500', textAlign: 'center' }} className='font-semibold block lg:hidden'>
         Our <span style={{ color: 'var(--green-60, #CAFF33)' }} className='font-semibold '>Products</span>
       </p>
-      <div style={{ display: 'flex', flexDirection: 'column', gap: '20px', padding: '3rem' }} className='grid lg:grid-cols-2 md:grid-cols-2 gap-4 sm:grid-cols-1'>
+      <div style={{ display: 'flex', flexDirection: 'column', gap: '20px' }} className='grid lg:grid-cols-2 md:grid-cols-2 gap-4 sm:grid-cols-1'>
         <div>
           <p style={{ color: 'var(--grey-70, #B3B3B3)', fontFamily: 'Lexend', fontStyle: 'normal', fontWeight: '300', fontSize: '14px', }} className=' text-center lg:hidden'>
             Discover a range of comprehensive and customizable banking products at YourBank, designed to suit your <br></br>unique financial needs and aspirations
@@ -147,10 +147,10 @@ const Home = () => {
         </div>
 
         {/* Use case ss*/}
-         <div style={{ textAlign: 'center' }}className='block sm:block lg:hidden md:block'>
+         <div style={{ textAlign: 'center', }}className='block sm:block lg:hidden md:block'>
           <p style={{ color: 'var(--green-60, #CAFF33)', fontSize: '28px', fontFamily: 'lexend' }} className='font-semibold '>Use case</p>
           <p style={{ color: 'var(--grey-70, #B3B3B3)', fontFamily: 'lexend', fontSize: '14px', paddingBottom: '3rem' }}>At YourBank, we cater to the diverse needs of individuals and businesses alike, offering a wide range of financial solutions</p>
-      
+     
           <div style={{ border: '1px solid #262626', borderRadius: '12px', width:'358px', height:'370px', margin:'auto', position: 'relative'}}>
   <img src={Abstract} alt='abs' style={{ width: '118px', height: '112px', transform: 'rotate(-90deg)', position: 'absolute' }} />
   <div style={{ display: 'grid', alignItems: 'center', gridTemplateColumns: '1fr 1fr', gridTemplateRows: '1fr 1fr', padding: '1rem', justifyContent: 'center', position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', gap:'14px', paddingTop:'2.5rem' }}>
@@ -162,6 +162,7 @@ const Home = () => {
         </div>
         <p style={{ color: 'var(--absolute-white, #FFF)', fontSize: '14px', fontStyle: 'normal', fontWeight: '500' }}>Managing Personal Finances</p>
       </div>
+
     </div>
 
 
@@ -198,7 +199,7 @@ const Home = () => {
 {/* for individuals */}
           <div>
             <p style={{color: 'var(--absolute-white, #FFF)',fontSize: '20px',fontStyle: 'normal',fontWeight: '500', paddingTop:'2rem', fontFamily:'lexend'}}>For Individuals</p>
-          <p style={{color: 'var(--grey-70, #B3B3B3)',fontFamily: 'lexend',fontSize: '14px', paddingBottom: '2rem'}}>For individuals, our mortgage services pave the way to homeownership, and our flexible personal loans provide vital support during various life milestones. We also prioritize retirement planning, ensuring a financially secure future for our customers</p>
+          <p style={{color: 'var(--grey-70, #B3B3B3)',fontFamily: 'lexend',fontSize: '14px', paddingBottom: '2rem', }} className='px-10'>For individuals, our mortgage services pave the way to homeownership, and our flexible personal loans provide vital support during various life milestones. We also prioritize retirement planning, ensuring a financially secure future for our customers</p>
         </div>
         <div style={{display:'flex', padding:'0px 50px', flexDirection:'column', gap:'30px', alignSelf:'stretch'}}>
         <div>
@@ -276,7 +277,7 @@ const Home = () => {
 
           <div>
             <p style={{color: 'var(--absolute-white, #FFF)',fontSize: '20px',fontStyle: 'normal',fontWeight: '500', paddingTop:'2rem', fontFamily:'lexend'}}>For Business</p>
-          <p style={{color: 'var(--grey-70, #B3B3B3)',fontFamily: 'lexend',fontSize: '14px', paddingBottom: '2rem'}}> For businesses, we empower growth with working capital solutions that optimize cash flow, and our tailored financing options fuel business expansion. Whatever your financial aspirations, YourBank is committed to providing the right tools and support to achieve them</p>
+          <p style={{color: 'var(--grey-70, #B3B3B3)',fontFamily: 'lexend',fontSize: '14px', paddingBottom: '2rem'}}  className='px-10'> For businesses, we empower growth with working capital solutions that optimize cash flow, and our tailored financing options fuel business expansion. Whatever your financial aspirations, YourBank is committed to providing the right tools and support to achieve them</p>
         </div>
         <div style={{display:'flex', padding:'0px 50px', flexDirection:'column', gap:'30px', alignSelf:'stretch'}}>
         <div>
@@ -315,7 +316,7 @@ const Home = () => {
           </p>
         </div>
         <div className=' lg:hidden'>
-          <div style={{ display: 'flex', padding: '12px', alignItems: 'flex-start', borderRadius: '82px', border: '1px solid var(--grey-15, #262626)' }} className="justify-center items-center lg:hidden">
+          <div style={{ display: 'flex', padding: '12px', alignItems: 'flex-start', borderRadius: '82px', border: '1px solid var(--grey-15, #262626)' }} className="justify-center items-center lg:hidden w-[366px] h-[89px] mx-auto">
            <div className='mr-[3.5rem]'>
             <button style={{ borderRadius: '140px', padding: '10px 18px', justifyContent: 'center', alignItems: 'center', gap: '10px', border: '1px solid var(--grey-15, #262626)', }} className=' w-[144px] h-[59px] lg:w-[404px] lg:h-[49px] lg:hidden'>
               <div to='/bank/signup' style={{ color: '#CAFF33', textAlign: 'center', fontFamily: 'lexend', fontSize: '14px', fontWeight: '400', lineHeight: '150%' }} className="">
@@ -333,6 +334,7 @@ const Home = () => {
           </div>
         </div>
         </div>
+
 
         <div style={{display: 'flex', padding: '30px', flexDirection: 'column', alignItems: 'flex-start', gap: '20px',  }}>
           <div className='grid grid-cols-1 grid-rows-4 text-start'>
@@ -385,25 +387,25 @@ const Home = () => {
             <div style={{borderRadius:'10px', border:'1px solid var(--grey-15, #262626)', background: 'var(--grey-11, #1C1C1C)' , padding:'30px' }}>
              
               <h1 style={{color:'var(--absolute-white, #FFF)', fontFamily:'lexend', fontSize:'18px', fontStyle:'normal', lineHeight:'27px', flex:'1 0 0' }}>How do I open an account with YourBank?</h1>
-             <p className='w-[278px] text-gray-400'>----------------------------</p>
+             <p className='w-[278px] text-gray-400'>-----------------------</p>
               <p style={{color:'var(--grey-70, #B3B3B3)', fontFamily:'lexend', fontSize:'14px', letterSpacing:'-0.084px', lineHeight:'21px', paddingTop:'15px'}}>Opening an account with YourBank is easy. Simply visit our website and click on the "Open an Account" button. Follow the prompts, provide the required information, and complete the application process. If you have any questions or need assistance, our customer support team is available to help.</p>
             </div>
 
             <div style={{borderRadius:'10px', border:'1px solid var(--grey-15, #262626)', background: 'var(--grey-11, #1C1C1C)' , padding:'30px' }}>
               <h1 style={{color:'var(--absolute-white, #FFF)', fontFamily:'lexend', fontSize:'18px', fontStyle:'normal', lineHeight:'27px', flex:'1 0 0' }}>What documents do I need to provide to apply for a loan?</h1>
-             <p className='w-[278px] text-gray-400'>----------------------------</p>
+             <p className='w-[278px] text-gray-400'>-----------------------</p>
               <p style={{color:'var(--grey-70, #B3B3B3)', fontFamily:'lexend', fontSize:'14px', letterSpacing:'-0.084px', lineHeight:'21px', paddingTop:'15px'}}>The documents required for a loan application may vary depending on the type of loan you are applying for. Generally, you will need to provide identification documents (such as a passport or driver's license), proof of income (such as pay stubs or tax returns), and information about the collateral (if applicable). Our loan officers will guide you through the specific requirements during the application process.</p>
             </div>
 
             <div style={{borderRadius:'10px', border:'1px solid var(--grey-15, #262626)', background: 'var(--grey-11, #1C1C1C)' , padding:'30px' }}>
               <h1 style={{color:'var(--absolute-white, #FFF)', fontFamily:'lexend', fontSize:'18px', fontStyle:'normal', lineHeight:'27px', flex:'1 0 0' }}>How can I access my accounts online?</h1>
-             <p className='w-[278px] text-gray-400'>----------------------------</p>
+             <p className='w-[278px] text-gray-400'>-----------------------</p>
               <p style={{color:'var(--grey-70, #B3B3B3)', fontFamily:'lexend', fontSize:'14px', letterSpacing:'-0.084px', lineHeight:'21px', paddingTop:'15px'}}>Accessing your accounts online is simple and secure. Visit our website and click on the "Login" button. Enter your username and password to access your accounts. If you haven't registered for online banking, click on the "Enroll Now" button and follow the registration process. If you need assistance, our customer support team is available to guide you.</p>
             </div>
 
             <div style={{borderRadius:'10px', border:'1px solid var(--grey-15, #262626)', background: 'var(--grey-11, #1C1C1C)' , padding:'30px' }}>
               <h1 style={{color:'var(--absolute-white, #FFF)', fontFamily:'lexend', fontSize:'18px', fontStyle:'normal', lineHeight:'27px', flex:'1 0 0' }}>Are my transactions and personal information secure?</h1>
-             <p className='w-[278px] text-gray-400'>----------------------------</p>
+             <p className='w-[278px] text-gray-400'>-----------------------</p>
               <p style={{color:'var(--grey-70, #B3B3B3)', fontFamily:'lexend', fontSize:'14px', letterSpacing:'-0.084px', lineHeight:'21px', paddingTop:'15px'}}>At YourBank, we prioritize the security of your transactions and personal information. We employ industry-leading encryption and multi-factor authentication to enusre that your data is protected. Additionally, we regularly udate our security measures to stay ahead of emerging threats You can bank with confidence knowing that we have robust security systems in place.</p>
             </div>
 
