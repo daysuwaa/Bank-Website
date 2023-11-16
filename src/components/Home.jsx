@@ -423,6 +423,7 @@ const Home = () => {
    </div>
 
    {/* start of large screen  */}
+   {/* use case */}
    <div className='lg:block  hidden '>
           <p style={{ color: 'var(--green-60, #CAFF33)', fontSize: '38px', fontFamily: 'lexend' }} className='font-semibold mx-[4rem]'>Use case</p>
           <p style={{ color: 'var(--grey-70, #B3B3B3)', fontFamily: 'lexend', fontSize: '16px', paddingBottom: '3rem', margin:'0 3rem' }}>At YourBank, we cater to the diverse needs of individuals and businesses alike, offering a wide range of financial solutions</p>
@@ -807,7 +808,7 @@ const Home = () => {
 
       {/* for small screens cta */}
       <div>
-      <div style={{ textAlign: 'center' }}className='block lg:hidden md:hidden'>
+      <div style={{ textAlign: 'center' }}className='block lg:hidden md:block'>
          <div style={{ border: '1px solid #262626', borderRadius: '12px', width:'358px', height:'370px', margin:'auto', position: 'relative'}}>
       <img src={Abstract} alt='abs' style={{ width: '118px', height: '112px', transform: 'rotate(-90deg)', position: 'absolute' }} />
       <h1 style={{ color: 'var(--absolute-white, #FFF)',fontSize: '28px', fontStyle: 'normal', fontWeight: '500', textAlign:'center' }}className='px-8 py-5'>Start your financial journey with <span style={{color: 'var(--green-60, #CAFF33)'}}>YourBank today!</span></h1>
@@ -820,6 +821,31 @@ const Home = () => {
       </div>
       </div>
       </div>
+
+      {/* end of small screen */}
+
+      {/* start of large screen */}
+      <div style={{ textAlign: 'center' }}className='hidden md:hidden lg:block'>
+         <div style={{ border: '1px solid #262626', borderRadius: '12px', height:'223px', margin:'auto', position: 'relative'}}>
+      <img src={Abstract} alt='abs' style={{ width: '118px', height: '112px', transform: 'rotate(-90deg)', position: 'absolute' }} />
+      <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start' }} className='hidden lg:block mx-[2.6rem]'>
+      <h1 style={{ color: 'var(--absolute-white, #FFF)',fontSize: '38px', fontStyle: 'normal', fontWeight: '500',  }}className='px-8 py-4'>Start your financial journey with <span style={{color: 'var(--green-60, #CAFF33)'}}>YourBank today!</span></h1>
+      <p style={{color:'var(--grey-70, #B3B3B3', fontFamily:'lexend'}} className=''>Lorem ipsum dolor sit amet consectetur. Blandit odio semper risus pellentesque elit. Pellentesque eget ut imperdiet nulla penatibus. Nascetur viverra arcu sed amet cursus purus.</p>
+          <div className='hidden lg:block'>
+            <div className=' flex  '>
+              <div style={{ display: 'flex', padding: '12px', alignItems: 'flex-start', borderRadius: '82px', border: '1px solid var(--grey-15, #262626)' }} className="justify-center items-center  ">
+                <button style={{ borderRadius: '140px', padding: '10px 18px', background: '#CAFF33', justifyContent: 'center', alignItems: 'center', gap: '10px' }} className=' w-[136px] h-[41px]  '>
+                  <div style={{ color: '#262626', textAlign: 'center', fontFamily: 'lexend', fontSize: '14px', fontWeight: '400', lineHeight: '150%' }} className="">
+                    For Individuals
+                  </div>
+                </button>
+                </div>
+                </div>
+                </div>
+                </div>
+                </div>
+                </div>
+
 
 
 
