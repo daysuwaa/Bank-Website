@@ -13,6 +13,7 @@ import Flow from'../assets/Icon-30.png'
 import Business from '../assets/Icon-31.png'
 import Payment from '../assets/Icon-32.png'
 import DownA from '../assets/Icon-33.png';
+import Education from '../assets/Icon-34.png';
 import House from '../assets/Icon-25.png'
 import ArrowUp from '../assets/Icon-26.png'
 import Briefcase from '../assets/briefcase.fill.png'
@@ -445,7 +446,7 @@ const Home = () => {
             <div className=' w-[260px] h-[174px]'>
             <div style={{display: 'flex',padding: '20px 14px',flexDirection: 'column',alignItems: 'center',gap: '14px',background: 'var(--grey-10, #1A1A1A)',borderRadius: '12px',flex: '1 0 0',border: '1px solid #262626'}}>
             <div style={{borderRadius: '12px',border: '1px solid var(--grey-15, #262626)',background: 'var(--grey-19, #1A1A1A)'}}>
-              <img src={Cash} alt='frame' style={{borderRadius: '50px',border: '1px solid #CAFF33',background: 'linear-gradient(180deg, rgba(202, 255, 51, 0.10) -66.22%, rgba(202, 255, 51, 0.00) 85.46%)',padding: '12px' }}/>
+              <img src={Education} alt='frame' style={{borderRadius: '50px',border: '1px solid #CAFF33',background: 'linear-gradient(180deg, rgba(202, 255, 51, 0.10) -66.22%, rgba(202, 255, 51, 0.00) 85.46%)',padding: '12px' }}/>
            </div>
             <p style={{ color: 'var(--absolute-white, #FFF)',fontSize: '14px',fontStyle: 'normal',fontWeight: '500'}}>Education Funding</p>
          </div>
