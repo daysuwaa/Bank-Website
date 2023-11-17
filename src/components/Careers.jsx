@@ -5,6 +5,7 @@ import Icon35 from '../assets/Icon-35.png'
 import Icon36 from '../assets/Icon-36.png'
 import Icon37 from '../assets/Icon-37.png'
 import Icon38 from '../assets/Icon-38.png'
+import DownA from '../assets/Icon-33.png';
 import Briefcase from '/Users/adesuwa/Desktop/my-react-app/bank-website/src/assets/briefcase.fill-3.png'
 
 const Careers = () => {
@@ -188,7 +189,7 @@ const Careers = () => {
           </div>
          
          {/* button */}
-          <div style={{padding:'12px 20px', alignItems:'center', gap:'10px', }}>
+          <div style={{padding:'12px 20px', alignItems:'center', gap:'10px', paddingTop:'2rem'}}>
             <button style={{borderRadius:'82px',background: 'var(--green-60, #CAFF33)', width:'115px', height:'45px'}}>
               <p>Apply Now</p>
             </button>
@@ -284,20 +285,118 @@ const Careers = () => {
             <p style={{color:'var(--grey-70, #B3B3B3)'}} className='pl-3 text-sm lg:text-md'>Professional certifications such as CISSP or CISM are preferred</p>
           </div>
          {/* button */}
-          <div style={{padding:'12px 20px', alignItems:'center', gap:'10px', }}>
+          <div style={{padding:'12px 20px', alignItems:'center', gap:'10px', paddingTop:'2rem' }}>
             <button style={{borderRadius:'82px',background: 'var(--green-60, #CAFF33)', width:'115px', height:'45px'}}>
               <p>Apply Now</p>
             </button>
           </div>
           </div>
           {/* the end third col */}
-
           </div>
-
-
-
         </div>
         {/* end of job openenings */}
+
+        {/* beginning of FAQ */}
+          {/* FAQ */}
+<div className='px-[4rem]'>
+  <p style={{ color: 'var(--green-60, #CAFF33)', fontStyle: 'normal', fontWeight: '500', lineHeight: '57px', }} className='font-extrabold text-3xl text-center lg:text-4xl lg:text-start'>
+    Frequently <span style={{ color: 'var(--absolute-white, #FFF)' }}>Asked Questions</span>
+  </p>
+  <p style={{ color: 'var(--grey-70, #B3B3B3)', fontFamily: 'lexend',  letterSpacing: '-0.084px', lineHeight: '21px', paddingTop: '15px' }} className='text-center lg:text-start text-sm lg:text-sm'> Still have any questions? Contact our Team via support@yourbank.com</p>
+
+  <div className='pt-5'>
+    <div className='grid lg:grid-cols-2 lg:grid-rows-2 grid-cols-1 '>
+
+      
+      <div style={{ borderRadius: '10px', border: '1px solid var(--grey-15, #262626)', background: 'var(--grey-11, #1C1C1C)', padding: '30px' }}>
+        <h1 style={{ color: 'var(--absolute-white, #FFF)', fontFamily: 'lexend', fontSize: '18px', fontStyle: 'normal', lineHeight: '27px', flex: '1 0 0' }}>How do I open an account with YourBank?</h1>
+        <p className='w-[278px] text-gray-400'>-------------------------------------</p>
+        <p style={{ color: 'var(--grey-70, #B3B3B3)', fontFamily: 'lexend', fontSize: '14px', letterSpacing: '-0.084px', lineHeight: '21px', paddingTop: '15px' }}>Opening an account with YourBank is easy. Simply visit our website and click on the "Open an Account" button. Follow the prompts, provide the required information, and complete the application process. If you have any questions or need assistance, our customer support team is available to help.</p>
+      </div>
+    
+
+      
+      <div style={{ borderRadius: '10px', border: '1px solid var(--grey-15, #262626)', background: 'var(--grey-11, #1C1C1C)', padding: '30px' }}>
+        <h1 style={{ color: 'var(--absolute-white, #FFF)', fontFamily: 'lexend', fontSize: '18px', fontStyle: 'normal', lineHeight: '27px', flex: '1 0 0' }}>What documents do I need to provide to apply for a loan?</h1>
+        <p className='w-[278px] text-gray-400'>------------------------------------</p>
+        <p style={{ color: 'var(--grey-70, #B3B3B3)', fontFamily: 'lexend', fontSize: '14px', letterSpacing: '-0.084px', lineHeight: '21px', paddingTop: '15px' }}>The documents required for a loan application may vary depending on the type of loan you are applying for. Generally, you will need to provide identification documents (such as a passport or driver's license), proof of income (such as pay stubs or tax returns), and information about the collateral (if applicable). Our loan officers will guide you through the specific requirements during the application process.</p>
+      </div>
+     
+
+      
+      <div style={{ borderRadius: '10px', border: '1px solid var(--grey-15, #262626)', background: 'var(--grey-11, #1C1C1C)', padding: '30px' }}>
+        <h1 style={{ color: 'var(--absolute-white, #FFF)', fontFamily: 'lexend', fontSize: '18px', fontStyle: 'normal', lineHeight: '27px', flex: '1 0 0' }}>How can I access my accounts online?</h1>
+        <p className='w-[278px] text-gray-400'>-----------------------------------</p>
+        <p style={{ color: 'var(--grey-70, #B3B3B3)', fontFamily: 'lexend', fontSize: '14px', letterSpacing: '-0.084px', lineHeight: '21px', paddingTop: '15px' }}>Accessing your accounts online is simple and secure. Visit our website and click on the "Login" button. Enter your username and password to access your accounts. If you haven't registered for online banking, click on the "Enroll Now" button and follow the registration process. If you need assistance, our customer support team is available to guide you.</p>
+      </div>
+     
+
+     
+      <div style={{ borderRadius: '10px', border: '1px solid var(--grey-15, #262626)', background: 'var(--grey-11, #1C1C1C)', padding: '30px' }}>
+        <h1 style={{ color: 'var(--absolute-white, #FFF)', fontFamily: 'lexend', fontSize: '18px', fontStyle: 'normal', lineHeight: '27px', flex: '1 0 0' }}>Are my transactions and personal information secure?</h1>
+        <p className='w-[278px] text-gray-400'>-----------------------------------</p>
+        <p style={{ color: 'var(--grey-70, #B3B3B3)', fontFamily: 'lexend', fontSize: '14px', letterSpacing: '-0.084px', lineHeight: '21px', paddingTop: '15px' }}>At YourBank, we prioritize the security of your transactions and personal information. We employ industry-leading encryption and multi-factor authentication to ensure that your data is protected. Additionally, we regularly update our security measures to stay ahead of emerging threats. You can bank with confidence knowing that we have robust security systems in place.</p>
+      </div>
+          </div>
+
+          <div className='flex item-center justify-center pt-[18px]'>
+            <button style={{display:'flex', borderRadius: '100px', padding: '14px 20px', justifyContent: 'center', alignItems: 'center',  gap: '4px', border: '1px solid var(--grey-15, #262626)' }} className='w-[154px] h-[49px]'>
+              <p style={{ color: 'white', fontFamily: 'lexend', fontSize: '14px', fontWeight: '400', lineHeight: '150%' }} className="">
+              Load All FAQ's
+              </p>
+              <img src={DownA} alt='down'/>
+            </button>
+            </div>
+    </div>
+  </div>
+
+{/* start your ... lg */}
+  <div className='block lg:hidden pt-6'>
+  <div style={{ textAlign: 'center' }} className='block lg:hidden md:block'>
+    <div style={{ border: '1px solid #262626', borderRadius: '12px', width:'358px', height:'370px', margin:'auto', position: 'relative'}}>
+      <img src={Abstract} alt='abs' style={{ width: '118px', height: '112px', transform: 'rotate(-90deg)', position: 'absolute' }} />
+      <h1 style={{ color: 'var(--absolute-white, #FFF)', fontSize: '28px', fontStyle: 'normal', fontWeight: '500', textAlign:'center' }} className='px-8 py-5'>Start your financial journey with <span style={{color: 'var(--green-60, #CAFF33)'}}>YourBank today!</span></h1>
+      <p style={{ color:'var(--grey-70, #B3B3B3)', fontFamily:'lexend' }} className='px-6'>Lorem ipsum dolor sit amet consectetur. Blandit odio semper risus pellentesque elit. Pellentesque eget ut imperdiet nulla penatibus. Nascetur viverra arcu sed amet cursus purus.</p>
+      <button style={{ borderRadius: '140px', padding: '10px 18px', background: '#CAFF33', justifyContent: 'center', alignItems: 'center', gap: '10px' }} className='w-[136px] h-[41px] mt-4 '>
+        <div style={{ color: '#262626', textAlign: 'center', fontFamily: 'lexend', fontSize: '14px', fontWeight: '400', lineHeight: '150%' }} className="">
+          Open Account
+        </div>
+      </button>
+    </div>
+  </div>
+</div>
+
+
+      {/* start of large screen */}
+      
+
+      <div className=' hidden lg:block'>
+      <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'flex-start' }} className=" mx-[2.6rem]">
+  <div>
+    <h1 style={{ color: 'var(--absolute-white, #FFF)', fontSize: '38px', fontStyle: 'normal', fontWeight: '500', }} className='px- py-4'>Start your financial journey with <span style={{ color: 'var(--green-60, #CAFF33)' }}>YourBank today!</span></h1>
+    <p style={{ color: 'var(--grey-70, #B3B3B3)', fontFamily: 'lexend' }} className=''>Lorem ipsum dolor sit amet consectetur. Blandit odio semper risus pellentesque elit. Pellentesque eget ut imperdiet nulla penatibus. Nascetur viverra arcu sed amet cursus</p>
+  </div>
+  <div className='hidden lg:block'>
+    <div className='flex'>
+      <div style={{ display: 'flex', padding: '12px', alignItems: 'flex-start', borderRadius: '82px', border: '1px solid var(--grey-15, #262626)' }} className="justify-center items-center">
+        <button style={{ borderRadius: '140px', padding: '10px 18px', background: '#CAFF33', justifyContent: 'center', alignItems: 'center', gap: '10px' }} className='w-[136px] h-[41px]'>
+          <div style={{ color: '#262626', textAlign: 'center', fontFamily: 'lexend', fontSize: '14px', fontWeight: '400', lineHeight: '150%' }} className="">
+            Open Account
+          </div>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+      </div>
+     
+
+
+
+
+  
+
 
 
 
