@@ -5,6 +5,7 @@ import Icon35 from '../assets/Icon-35.png'
 import Icon36 from '../assets/Icon-36.png'
 import Icon37 from '../assets/Icon-37.png'
 import Icon38 from '../assets/Icon-38.png'
+import Briefcase from '/Users/adesuwa/Desktop/my-react-app/bank-website/src/assets/briefcase.fill-3.png'
 
 const Careers = () => {
   return (
@@ -76,6 +77,7 @@ const Careers = () => {
         </div>
 
         </div>
+        {/* end of the grid */}
       </div>
       {/* end of values*/}
 
@@ -135,11 +137,168 @@ const Careers = () => {
         </div>
         </div>
         </div>
-      
-
         </div>
       </div>
       {/* end of bene */}
+
+
+      {/* beginning of job openings */}
+      <div className='lg:pl-10 p-[2rem]'>
+        <h1 className='text-center lg:text-start font-bold' style={{color:'var(--green-60, #CAFF33', fontSize:'28px',}}>Job Openings</h1>
+        <p style={{color:'var(--grey-70, #B3B3B3'}} className='text-sm lg:text-lg text-center lg:text-start'>Explore exciting job openings at YourBank, where we value talent, innovation, and a passion for customer service. Join our team and be part of shaping a brighter future in the banking industry</p>
+        <div className='grid grid-cols-1 grid-rows-1 lg:grid-cols-2 lg:grid-rows-2 py-[3rem]'>
+         
+         {/* start of first col */}
+          <div>
+            <h1 className='text-md lg:text-2xl font-bold' style={{color:'var(--absolute-white, #FFF'}}>Relationship Manager</h1>
+            <div className='flex py-6 '>
+            <p style={{background:'var(--grey-10, #1C1C1C)', borderRadius:'68px', color:'var(--absolute-white, #FFF', height:'4rem', width:'35%', textAlign:'center' , paddingTop:'15px',border: '1px solid var(--grey-15, #262626)' }}className='text-sm lg:text-md'>Location: India</p>
+            <p style={{background:'var(--grey-10, #1C1C1C)', borderRadius:'68px', color:'var(--absolute-white, #FFF', height:'4rem', width:'35%', textAlign:'center' , paddingTop:'15px', border: '1px solid var(--grey-15, #262626)'}} className='text-sm lg:text-md lg:pt-[10px]'>Department: Retail Banking</p>
+          </div>
+          {/* about this job */}
+          <div>
+          <h1 className='text-lg lg:text-2xl  font-bold' style={{color:'var(--absolute-white, #FFF'}}>About This Job</h1>
+          <p style={{color:'var(--grey-70, #B3B3B3)'}} className='text-sm lg:text-md '>As a Relationship Manager at YourBank, you will be responsible for developing and maintaining relationships with our valued customers. You will proactively identify their financial needs and offer tailored solutions to help them achieve their goals. We are seeking individuals with excellent communication skills, a strong sales acumen, and a passion for delivering exceptional customer service.</p>
+          </div>
+          {/* requirements */}
+          <h1 className='text-lg lg:text-2xl  font-bold pt-4' style={{color:'var(--absolute-white, #FFF'}}>Requirements & Qualifications</h1>
+          <div className='flex pt-4'>
+            <img src={Briefcase} alt='briefcase' className='w-[18.571px] h-[15.714px]'/>
+            <p style={{color:'var(--grey-70, #B3B3B3)'}} className='pl-3 text-sm lg:text-md'>Bachelor's degree in Business, Finance, or a related field</p>
+          </div>
+
+          <div className='flex pt-4'>
+            <img src={Briefcase} alt='briefcase' className='w-[18.571px] h-[15.714px]'/>
+            <p style={{color:'var(--grey-70, #B3B3B3)'}} className='pl-3 text-sm lg:text-md'>Minimum of 3 years of experience in sales or relationship management in the banking industry</p>
+          </div>
+
+          <div className='flex pt-4'>
+            <img src={Briefcase} alt='briefcase' className='w-[18.571px] h-[15.714px]'/>
+            <p style={{color:'var(--grey-70, #B3B3B3)'}} className='pl-3 text-sm lg:text-md'>Proven track record of meeting and exceeding sales targets</p>
+          </div>
+
+          <div className='flex pt-4'>
+            <img src={Briefcase} alt='briefcase' className='w-[18.571px] h-[15.714px]'/>
+            <p style={{color:'var(--grey-70, #B3B3B3)'}} className='pl-3 text-sm lg:text-md'>Excellent interpersonal and negotiation skills</p>
+          </div>
+
+          <div className='flex pt-4'>
+            <img src={Briefcase} alt='briefcase' className='w-[18.571px] h-[15.714px]'/>
+            <p style={{color:'var(--grey-70, #B3B3B3)'}} className='pl-3 text-sm lg:text-md'>Strong knowledge of banking products and services</p>
+          </div>
+         
+         {/* button */}
+          <div style={{padding:'12px 20px', alignItems:'center', gap:'10px', }}>
+            <button style={{borderRadius:'82px',background: 'var(--green-60, #CAFF33)', width:'115px', height:'45px'}}>
+              <p>Apply Now</p>
+            </button>
+          </div>
+          </div>
+          {/* the end first col */}
+
+         {/*start of the second */}
+          <div>
+            <h1 className='text-md lg:text-2xl font-bold' style={{color:'var(--absolute-white, #FFF'}}>Risk Analyst</h1>
+            <div className='flex py-6 '>
+            <p style={{background:'var(--grey-10, #1C1C1C)', borderRadius:'68px', color:'var(--absolute-white, #FFF', height:'4rem', width:'35%', textAlign:'center' , paddingTop:'15px',border: '1px solid var(--grey-15, #262626)' }}className='text-sm lg:text-md'>Location: India</p>
+            <p style={{background:'var(--grey-10, #1C1C1C)', borderRadius:'68px', color:'var(--absolute-white, #FFF', height:'4rem', width:'35%', textAlign:'center' , border: '1px solid var(--grey-15, #262626)'}} className='text-sm lg:text-md lg:pt-[10px]'>Department: Risk Management</p>
+          </div>
+          {/* about this job */}
+          <div>
+          <h1 className='text-lg lg:text-2xl  font-bold' style={{color:'var(--absolute-white, #FFF'}}>About This Job</h1>
+          <p style={{color:'var(--grey-70, #B3B3B3)'}} className='text-sm lg:text-md '>As a Risk Analyst at YourBank, you will play a vital role in identifying and assessing potential risks to our organization. You will analyze data, conduct risk assessments, and develop strategies to mitigate risks. We are looking for detail-oriented individuals with strong analytical skills and a solid understanding of risk management principles.</p>
+          </div>
+          {/* requirements */}
+          <h1 className='text-lg lg:text-2xl  font-bold pt-4' style={{color:'var(--absolute-white, #FFF'}}>Requirements & Qualifications</h1>
+          <div className='flex pt-4'>
+            <img src={Briefcase} alt='briefcase' className='w-[18.571px] h-[15.714px]'/>
+            <p style={{color:'var(--grey-70, #B3B3B3)'}} className='pl-3 text-sm lg:text-md'>Bachelor's degree in Finance, Economics, or a related field</p>
+          </div>
+
+          <div className='flex pt-4'>
+            <img src={Briefcase} alt='briefcase' className='w-[18.571px] h-[15.714px]'/>
+            <p style={{color:'var(--grey-70, #B3B3B3)'}} className='pl-3 text-sm lg:text-md'>Minimum of 2 years of experience in risk management or a similar role</p>
+          </div>
+
+          <div className='flex pt-4'>
+            <img src={Briefcase} alt='briefcase' className='w-[18.571px] h-[15.714px]'/>
+            <p style={{color:'var(--grey-70, #B3B3B3)'}} className='pl-3 text-sm lg:text-md'>Proficiency in risk analysis tools and techniques</p>
+          </div>
+
+          <div className='flex pt-4'>
+            <img src={Briefcase} alt='briefcase' className='w-[18.571px] h-[15.714px]'/>
+            <p style={{color:'var(--grey-70, #B3B3B3)'}} className='pl-3 text-sm lg:text-md'>Strong analytical and problem-solving skills</p>
+          </div>
+
+          <div className='flex pt-4'>
+            <img src={Briefcase} alt='briefcase' className='w-[18.571px] h-[15.714px]'/>
+            <p style={{color:'var(--grey-70, #B3B3B3)'}} className='pl-3 text-sm lg:text-md'>Knowledge of regulatory requirements and industry best practices</p>
+          </div>
+         
+         {/* button */}
+          <div style={{padding:'12px 20px', alignItems:'center', gap:'10px',paddingTop:'2rem' }}>
+            <button style={{borderRadius:'82px',background: 'var(--green-60, #CAFF33)', width:'115px', height:'45px'}}>
+              <p>Apply Now</p>
+            </button>
+          </div>
+          </div>
+          {/* the end second col */}
+
+
+          {/* start of the third */}
+          <div className='pt-7'>
+            <h1 className='text-md lg:text-2xl font-bold' style={{color:'var(--absolute-white, #FFF'}}>IT Security Specialist</h1>
+            <div className='flex py-6 '>
+            <p style={{background:'var(--grey-10, #1C1C1C)', borderRadius:'68px', color:'var(--absolute-white, #FFF', height:'4rem', width:'35%', textAlign:'center' , paddingTop:'16px',border: '1px solid var(--grey-15, #262626)' }}className='text-sm lg:text-md'>Location: India</p>
+            <p style={{background:'var(--grey-10, #1C1C1C)', borderRadius:'68px', color:'var(--absolute-white, #FFF', height:'4rem', width:'35%', textAlign:'center' , border: '1px solid var(--grey-15, #262626)'}} className='text-sm lg:text-md lg:pt-[10px]'>Department: Information Technology</p>
+          </div>
+          {/* about this job */}
+          <div>
+          <h1 className='text-lg lg:text-2xl  font-bold' style={{color:'var(--absolute-white, #FFF'}}>About This Job</h1>
+          <p style={{color:'var(--grey-70, #B3B3B3)'}} className='text-sm lg:text-md '>As an IT Security Specialist at YourBank, you will be responsible for ensuring the security and integrity of our information systems. You will develop and implement security protocols, conduct vulnerability assessments, and respond to security incidents. We are seeking individuals with a strong technical background, knowledge of cybersecurity best practices, and a commitment to maintaining the confidentiality of customer data.</p>
+          </div>
+          {/* requirements */}
+          <h1 className='text-lg lg:text-2xl  font-bold pt-4' style={{color:'var(--absolute-white, #FFF'}}>Requirements & Qualifications</h1>
+          <div className='flex pt-4'>
+            <img src={Briefcase} alt='briefcase' className='w-[18.571px] h-[15.714px]'/>
+            <p style={{color:'var(--grey-70, #B3B3B3)'}} className='pl-3 text-sm lg:text-md'>Bachelor's degree in Computer Science, Information Security, or a related field</p>
+          </div>
+
+          <div className='flex pt-4'>
+            <img src={Briefcase} alt='briefcase' className='w-[18.571px] h-[15.714px]'/>
+            <p style={{color:'var(--grey-70, #B3B3B3)'}} className='pl-3 text-sm lg:text-md'>Minimum of 5 years of experience in IT security or a similar role</p>
+          </div>
+
+          <div className='flex pt-4'>
+            <img src={Briefcase} alt='briefcase' className='w-[18.571px] h-[15.714px]'/>
+            <p style={{color:'var(--grey-70, #B3B3B3)'}} className='pl-3 text-sm lg:text-md'>In-depth knowledge of network security protocols and technologies</p>
+          </div>
+
+          <div className='flex pt-4'>
+            <img src={Briefcase} alt='briefcase' className='w-[18.571px] h-[15.714px]'/>
+            <p style={{color:'var(--grey-70, #B3B3B3)'}} className='pl-3 text-sm lg:text-md'>Familiarity with regulatory frameworks such as PCI DSS and GDPR</p>
+          </div>
+
+          <div className='flex pt-4'>
+            <img src={Briefcase} alt='briefcase' className='w-[18.571px] h-[15.714px]'/>
+            <p style={{color:'var(--grey-70, #B3B3B3)'}} className='pl-3 text-sm lg:text-md'>Professional certifications such as CISSP or CISM are preferred</p>
+          </div>
+         {/* button */}
+          <div style={{padding:'12px 20px', alignItems:'center', gap:'10px', }}>
+            <button style={{borderRadius:'82px',background: 'var(--green-60, #CAFF33)', width:'115px', height:'45px'}}>
+              <p>Apply Now</p>
+            </button>
+          </div>
+          </div>
+          {/* the end third col */}
+
+          </div>
+
+
+
+        </div>
+        {/* end of job openenings */}
+
 
 
 
