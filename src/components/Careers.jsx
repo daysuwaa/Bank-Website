@@ -144,17 +144,27 @@ const Careers = () => {
 
 
       {/* beginning of job openings */}
-      <div className='lg:pl-10 p-[2rem]'>
+      <div className='lg:pl-10'>
         <h1 className='text-center lg:text-start font-bold' style={{color:'var(--green-60, #CAFF33', fontSize:'28px',}}>Job Openings</h1>
         <p style={{color:'var(--grey-70, #B3B3B3'}} className='text-sm lg:text-lg text-center lg:text-start'>Explore exciting job openings at YourBank, where we value talent, innovation, and a passion for customer service. Join our team and be part of shaping a brighter future in the banking industry</p>
         <div className='grid grid-cols-1 grid-rows-1 lg:grid-cols-2 lg:grid-rows-2 py-[3rem]'>
          
          {/* start of first col */}
           <div>
-            <h1 className='text-md lg:text-2xl font-bold' style={{color:'var(--absolute-white, #FFF'}}>Relationship Manager</h1>
+            <h1 className='text-lg lg:text-2xl font-bold' style={{color:'var(--absolute-white, #FFF'}}>Relationship Manager</h1>
+            
             <div className='flex py-6 '>
-            <p style={{background:'var(--grey-10, #1C1C1C)', borderRadius:'68px', color:'var(--absolute-white, #FFF', height:'4rem', width:'35%', textAlign:'center' , paddingTop:'15px',border: '1px solid var(--grey-15, #262626)' }}className='text-sm lg:text-md'>Location: India</p>
-            <p style={{background:'var(--grey-10, #1C1C1C)', borderRadius:'68px', color:'var(--absolute-white, #FFF', height:'4rem', width:'35%', textAlign:'center' , paddingTop:'15px', border: '1px solid var(--grey-15, #262626)'}} className='text-sm lg:text-md lg:pt-[10px]'>Department: Retail Banking</p>
+            <div style={{padding:'12px 20px', alignItems:'center', gap:'10px', paddingTop:'2rem' }}>
+            <button style={{borderRadius:'82px',background:'var(--grey-10, #1C1C1C)', width:'115px', height:'45px', color:'var(--absolute-white, #FFF'}}>
+              <p>Location: India</p>
+            </button>
+          </div>
+          
+            <div style={{padding:'12px 20px', alignItems:'center', gap:'10px', paddingTop:'2rem' }}>
+            <button style={{borderRadius:'82px',background:'var(--grey-10, #1C1C1C)', width:'115px', height:'45px', color:'var(--absolute-white, #FFF'}}>
+              <p>Department: Retail Banking</p>
+            </button>
+          </div>
           </div>
           {/* about this job */}
           <div>
@@ -199,10 +209,19 @@ const Careers = () => {
 
          {/*start of the second */}
           <div>
-            <h1 className='text-md lg:text-2xl font-bold' style={{color:'var(--absolute-white, #FFF'}}>Risk Analyst</h1>
+            <h1 className='text-lg lg:text-2xl font-bold' style={{color:'var(--absolute-white, #FFF'}}>Risk Analyst</h1>
             <div className='flex py-6 '>
-            <p style={{background:'var(--grey-10, #1C1C1C)', borderRadius:'68px', color:'var(--absolute-white, #FFF', height:'4rem', width:'35%', textAlign:'center' , paddingTop:'15px',border: '1px solid var(--grey-15, #262626)' }}className='text-sm lg:text-md'>Location: India</p>
-            <p style={{background:'var(--grey-10, #1C1C1C)', borderRadius:'68px', color:'var(--absolute-white, #FFF', height:'4rem', width:'35%', textAlign:'center' , border: '1px solid var(--grey-15, #262626)'}} className='text-sm lg:text-md lg:pt-[10px]'>Department: Risk Management</p>
+            <div style={{padding:'12px 20px', alignItems:'center', gap:'10px', paddingTop:'2rem' }}>
+            <button style={{borderRadius:'82px',background:'var(--grey-10, #1C1C1C)', width:'115px', height:'45px', color:'var(--absolute-white, #FFF'}}>
+              <p>Location: India</p>
+            </button>
+          </div>
+          
+            <div style={{padding:'12px 20px', alignItems:'center', gap:'10px', paddingTop:'2rem' }}>
+            <button style={{borderRadius:'82px',background:'var(--grey-10, #1C1C1C)', width:'115px', height:'45px', color:'var(--absolute-white, #FFF'}}>
+              <p>Department: Risk Manager</p>
+            </button>
+          </div>
           </div>
           {/* about this job */}
           <div>
@@ -248,10 +267,19 @@ const Careers = () => {
 
           {/* start of the third */}
           <div className='pt-7'>
-            <h1 className='text-md lg:text-2xl font-bold' style={{color:'var(--absolute-white, #FFF'}}>IT Security Specialist</h1>
+            <h1 className='text-lg lg:text-2xl font-bold' style={{color:'var(--absolute-white, #FFF'}}>IT Security Specialist</h1>
             <div className='flex py-6 '>
-            <p style={{background:'var(--grey-10, #1C1C1C)', borderRadius:'68px', color:'var(--absolute-white, #FFF', height:'4rem', width:'35%', textAlign:'center' , paddingTop:'16px',border: '1px solid var(--grey-15, #262626)' }}className='text-sm lg:text-md'>Location: India</p>
-            <p style={{background:'var(--grey-10, #1C1C1C)', borderRadius:'68px', color:'var(--absolute-white, #FFF', height:'4rem', width:'35%', textAlign:'center' , border: '1px solid var(--grey-15, #262626)'}} className='text-sm lg:text-md lg:pt-[10px]'>Department: Information Technology</p>
+            <div style={{padding:'12px 20px', alignItems:'center', gap:'10px', paddingTop:'2rem' }}>
+            <button style={{borderRadius:'82px',background:'var(--grey-10, #1C1C1C)', width:'115px', height:'45px', color:'var(--absolute-white, #FFF'}}>
+              <p>Location: India</p>
+            </button>
+          </div>
+          
+            <div style={{padding:'12px 20px', alignItems:'center', gap:'10px', paddingTop:'2rem' }}>
+            <button style={{borderRadius:'82px',background:'var(--grey-10, #1C1C1C)', width:'115px', height:'45px', color:'var(--absolute-white, #FFF'}}>
+              <p>Department: Information Technology</p>
+            </button>
+          </div>
           </div>
           {/* about this job */}
           <div>
@@ -370,7 +398,7 @@ const Careers = () => {
       {/* start of large screen */}
       
 
-      <div className=' hidden lg:block'>
+      <div className=' hidden lg:block pt-[3rem]'>
       <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'flex-start' }} className=" mx-[2.6rem]">
   <div>
     <h1 style={{ color: 'var(--absolute-white, #FFF)', fontSize: '38px', fontStyle: 'normal', fontWeight: '500', }} className='px- py-4'>Start your financial journey with <span style={{ color: 'var(--green-60, #CAFF33)' }}>YourBank today!</span></h1>
