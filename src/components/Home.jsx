@@ -674,7 +674,55 @@ const Home = () => {
 {/* end of lg */}
 
    {/* FAQ */}
-   <div className='px-[4rem]'>
+
+   <div className='pt-5' style={{}}>
+        <p style={{ color: 'var(--green-60, #CAFF33)', fontSize: '28px', fontStyle: 'normal', fontWeight: '500', lineHeight: '57px',padding: '30px' }} className='font-extrabold'>
+             Frequently <span style={{ color: 'var(--absolute-white, #FFF)'}}>Asked Questions</span>
+              </p>
+              <p style={{color:'var(--grey-70, #B3B3B3)', fontFamily:'lexend', fontSize:'14px',paddingLeft: '30px', letterSpacing:'-0.084px', lineHeight:'21px', paddingTop:'15px'}}> Still you have any questions? Contact our Team via support@yourbank.com</p>
+
+        </div>
+
+        <div style={{display: 'flex', padding: '30px', flexDirection: 'column', alignItems: 'flex-start', gap: '20px',  }}>
+          <div className='grid lg:grid-cols-2 lg:grid-rows-2 text-start'>
+            <div style={{borderRadius:'10px', border:'1px solid var(--grey-15, #262626)', background: 'var(--grey-11, #1C1C1C)' , padding:'30px' }}>
+             
+              <h1 style={{color:'var(--absolute-white, #FFF)', fontFamily:'lexend', fontSize:'18px', fontStyle:'normal', lineHeight:'27px', flex:'1 0 0' }}>How do I open an account with YourBank?</h1>
+             <p className='w-[278px] text-gray-400'>-----------------------</p>
+              <p style={{color:'var(--grey-70, #B3B3B3)', fontFamily:'lexend', fontSize:'14px', letterSpacing:'-0.084px', lineHeight:'21px', paddingTop:'15px'}}>Opening an account with YourBank is easy. Simply visit our website and click on the "Open an Account" button. Follow the prompts, provide the required information, and complete the application process. If you have any questions or need assistance, our customer support team is available to help.</p>
+            </div>
+
+            <div style={{borderRadius:'10px', border:'1px solid var(--grey-15, #262626)', background: 'var(--grey-11, #1C1C1C)' , padding:'30px' }}>
+              <h1 style={{color:'var(--absolute-white, #FFF)', fontFamily:'lexend', fontSize:'18px', fontStyle:'normal', lineHeight:'27px', flex:'1 0 0' }}>What documents do I need to provide to apply for a loan?</h1>
+             <p className='w-[278px] text-gray-400'>-----------------------</p>
+              <p style={{color:'var(--grey-70, #B3B3B3)', fontFamily:'lexend', fontSize:'14px', letterSpacing:'-0.084px', lineHeight:'21px', paddingTop:'15px'}}>The documents required for a loan application may vary depending on the type of loan you are applying for. Generally, you will need to provide identification documents (such as a passport or driver's license), proof of income (such as pay stubs or tax returns), and information about the collateral (if applicable). Our loan officers will guide you through the specific requirements during the application process.</p>
+            </div>
+
+            <div style={{borderRadius:'10px', border:'1px solid var(--grey-15, #262626)', background: 'var(--grey-11, #1C1C1C)' , padding:'30px' }}>
+              <h1 style={{color:'var(--absolute-white, #FFF)', fontFamily:'lexend', fontSize:'18px', fontStyle:'normal', lineHeight:'27px', flex:'1 0 0' }}>How can I access my accounts online?</h1>
+             <p className='w-[278px] text-gray-400'>-----------------------</p>
+              <p style={{color:'var(--grey-70, #B3B3B3)', fontFamily:'lexend', fontSize:'14px', letterSpacing:'-0.084px', lineHeight:'21px', paddingTop:'15px'}}>Accessing your accounts online is simple and secure. Visit our website and click on the "Login" button. Enter your username and password to access your accounts. If you haven't registered for online banking, click on the "Enroll Now" button and follow the registration process. If you need assistance, our customer support team is available to guide you.</p>
+            </div>
+
+            <div style={{borderRadius:'10px', border:'1px solid var(--grey-15, #262626)', background: 'var(--grey-11, #1C1C1C)' , padding:'30px' }}>
+              <h1 style={{color:'var(--absolute-white, #FFF)', fontFamily:'lexend', fontSize:'18px', fontStyle:'normal', lineHeight:'27px', flex:'1 0 0' }}>Are my transactions and personal information secure?</h1>
+             <p className='w-[278px] text-gray-400'>-----------------------</p>
+              <p style={{color:'var(--grey-70, #B3B3B3)', fontFamily:'lexend', fontSize:'14px', letterSpacing:'-0.084px', lineHeight:'21px', paddingTop:'15px'}}>At YourBank, we prioritize the security of your transactions and personal information. We employ industry-leading encryption and multi-factor authentication to enusre that your data is protected. Additionally, we regularly udate our security measures to stay ahead of emerging threats You can bank with confidence knowing that we have robust security systems in place.</p>
+            </div>
+
+            <div className='flex justify-center pt-[18px]'>
+            <button style={{display:'flex', borderRadius: '100px', padding: '14px 20px', justifyContent: 'center', alignItems: 'center',  gap: '4px', border: '1px solid var(--grey-15, #262626)' }} className='w-[154px] h-[49px]'>
+              <p style={{ color: 'white', fontFamily: 'lexend', fontSize: '14px', fontWeight: '400', lineHeight: '150%' }} className="">
+              Load All FAQ's
+              </p>
+              <img src={DownA} alt='down'/>
+            </button>
+            </div>
+          </div>
+        </div>
+   
+
+{/* <div className='px-[4rem] '>
   <p style={{ color: 'var(--green-60, #CAFF33)', fontStyle: 'normal', fontWeight: '500', lineHeight: '57px', }} className='font-extrabold text-3xl text-center lg:text-4xl lg:text-start'>
     Frequently <span style={{ color: 'var(--absolute-white, #FFF)' }}>Asked Questions</span>
   </p>
@@ -686,7 +734,8 @@ const Home = () => {
       
       <div style={{ borderRadius: '10px', border: '1px solid var(--grey-15, #262626)', background: 'var(--grey-11, #1C1C1C)', padding: '30px' }}>
         <h1 style={{ color: 'var(--absolute-white, #FFF)', fontFamily: 'lexend', fontSize: '18px', fontStyle: 'normal', lineHeight: '27px', flex: '1 0 0' }}>How do I open an account with YourBank?</h1>
-        <p className='w-[278px] text-gray-400'>-------------------------------------</p>
+        <p className='w-[278px] text-gray-400 lg:hidden block'>----------------------------</p>
+        <p className='w-[278px] text-gray-400 lg:block hidden'>--------------------------------------</p>
         <p style={{ color: 'var(--grey-70, #B3B3B3)', fontFamily: 'lexend', fontSize: '14px', letterSpacing: '-0.084px', lineHeight: '21px', paddingTop: '15px' }}>Opening an account with YourBank is easy. Simply visit our website and click on the "Open an Account" button. Follow the prompts, provide the required information, and complete the application process. If you have any questions or need assistance, our customer support team is available to help.</p>
       </div>
     
@@ -694,7 +743,8 @@ const Home = () => {
       
       <div style={{ borderRadius: '10px', border: '1px solid var(--grey-15, #262626)', background: 'var(--grey-11, #1C1C1C)', padding: '30px' }}>
         <h1 style={{ color: 'var(--absolute-white, #FFF)', fontFamily: 'lexend', fontSize: '18px', fontStyle: 'normal', lineHeight: '27px', flex: '1 0 0' }}>What documents do I need to provide to apply for a loan?</h1>
-        <p className='w-[278px] text-gray-400'>------------------------------------</p>
+        <p className='w-[278px] text-gray-400 lg:hidden block'>----------------------------</p>
+        <p className='w-[278px] text-gray-400 lg:block hidden'>--------------------------------------</p>
         <p style={{ color: 'var(--grey-70, #B3B3B3)', fontFamily: 'lexend', fontSize: '14px', letterSpacing: '-0.084px', lineHeight: '21px', paddingTop: '15px' }}>The documents required for a loan application may vary depending on the type of loan you are applying for. Generally, you will need to provide identification documents (such as a passport or driver's license), proof of income (such as pay stubs or tax returns), and information about the collateral (if applicable). Our loan officers will guide you through the specific requirements during the application process.</p>
       </div>
      
@@ -702,7 +752,8 @@ const Home = () => {
       
       <div style={{ borderRadius: '10px', border: '1px solid var(--grey-15, #262626)', background: 'var(--grey-11, #1C1C1C)', padding: '30px' }}>
         <h1 style={{ color: 'var(--absolute-white, #FFF)', fontFamily: 'lexend', fontSize: '18px', fontStyle: 'normal', lineHeight: '27px', flex: '1 0 0' }}>How can I access my accounts online?</h1>
-        <p className='w-[278px] text-gray-400'>-----------------------------------</p>
+        <p className='w-[278px] text-gray-400 lg:hidden block'>----------------------------</p>
+        <p className='w-[278px] text-gray-400 lg:block hidden'>--------------------------------------</p>
         <p style={{ color: 'var(--grey-70, #B3B3B3)', fontFamily: 'lexend', fontSize: '14px', letterSpacing: '-0.084px', lineHeight: '21px', paddingTop: '15px' }}>Accessing your accounts online is simple and secure. Visit our website and click on the "Login" button. Enter your username and password to access your accounts. If you haven't registered for online banking, click on the "Enroll Now" button and follow the registration process. If you need assistance, our customer support team is available to guide you.</p>
       </div>
      
@@ -710,7 +761,8 @@ const Home = () => {
      
       <div style={{ borderRadius: '10px', border: '1px solid var(--grey-15, #262626)', background: 'var(--grey-11, #1C1C1C)', padding: '30px' }}>
         <h1 style={{ color: 'var(--absolute-white, #FFF)', fontFamily: 'lexend', fontSize: '18px', fontStyle: 'normal', lineHeight: '27px', flex: '1 0 0' }}>Are my transactions and personal information secure?</h1>
-        <p className='w-[278px] text-gray-400'>-----------------------------------</p>
+        <p className='w-[278px] text-gray-400 lg:hidden block'>----------------------------</p>
+        <p className='w-[278px] text-gray-400 lg:block hidden'>--------------------------------------</p>
         <p style={{ color: 'var(--grey-70, #B3B3B3)', fontFamily: 'lexend', fontSize: '14px', letterSpacing: '-0.084px', lineHeight: '21px', paddingTop: '15px' }}>At YourBank, we prioritize the security of your transactions and personal information. We employ industry-leading encryption and multi-factor authentication to ensure that your data is protected. Additionally, we regularly update our security measures to stay ahead of emerging threats. You can bank with confidence knowing that we have robust security systems in place.</p>
       </div>
           </div>
@@ -725,7 +777,7 @@ const Home = () => {
             </div>
     </div>
   </div>
-
+ */}
 
    
   
@@ -739,7 +791,7 @@ const Home = () => {
           Our <span style={{ color: 'var(--green-60, #CAFF33)', fontFamily: 'Lexend', fontStyle: 'normal', fontWeight: '500', lineHeight: '58px' }}> Testimonials </span>
         </h1>
         <div>
-          <p style={{ color: 'var(--grey-70, #B3B3B3)', fontFamily: 'Lexend', fontStyle: 'normal', fontWeight: '300', fontSize: '14px' }} className=' text-center lg:hidden'>
+          <p style={{ color: 'var(--grey-70, #B3B3B3)', fontFamily: 'Lexend', fontStyle: 'normal', fontWeight: '300', fontSize: '14px' }} className=' text-center lg:hidden px-2'>
           Discover how YourBank has transformed lives with innovative digital solutions and personalized customer service. See why our clients trust us for a secure and prosperous financial journey
           </p>
         </div>
