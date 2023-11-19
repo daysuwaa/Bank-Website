@@ -144,7 +144,7 @@ const Careers = () => {
 
 
       {/* beginning of job openings */}
-      <div className='lg:pl-10 pl-10'>
+      <div className='lg:pl-10 px-8'>
         <h1 className='text-center lg:text-start font-bold' style={{color:'var(--green-60, #CAFF33', fontSize:'28px',}}>Job Openings</h1>
         <p style={{color:'var(--grey-70, #B3B3B3'}} className='text-sm lg:text-lg text-center lg:text-start'>Explore exciting job openings at YourBank, where we value talent, innovation, and a passion for customer service. Join our team and be part of shaping a brighter future in the banking industry</p>
         <div className='grid grid-cols-1 grid-rows-1 lg:grid-cols-2 lg:grid-rows-2 py-[3rem]'>
