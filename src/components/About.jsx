@@ -107,7 +107,7 @@ const About = () => {
           <p style={{color:'var(--grey-70, #B3B3B3)', fontFamily:'lexend'}} className='text-sm lg:text-lg'>YourBank is pleased to announce the introduction of our new Rewards Program, aimed at rewarding our loyal customers and enhancing their banking experience. The program offers exclusive benefits, discounts, and personalized offers tailored to individual customer preferences. With this initiative, YourBank reaffirms its commitment to delivering exceptional value and building lasting relationships with our valued customers.</p>
     </div>
     {/* 1 */}
-    <div className='px-[1.5rem] ml-[3rem]'>
+    <div className='px-[1.5rem] lg:ml-[3rem]'>
     <img src={Image4} alt='pix'/>
       <h1 style={{color:'var(--absolute-white, #FFF)', fontFamily:'lexend'}} className='text-lg lg:text-2xl, pt-8'>YourBank Expands Branch Network with Opening of New Location in Chennai</h1>
       <div style={{padding:'12px 20px', alignItems:'center', gap:'10px', paddingTop:'2rem', display:'flex' }}>
@@ -139,7 +139,7 @@ const About = () => {
           <p style={{color:'var(--grey-70, #B3B3B3)', fontFamily:'lexend'}} className='text-sm lg:text-lg'>YourBank is excited to unveil our new Sustainable Banking Initiative, demonstrating our commitment to environmental responsibility. This initiative includes a range of sustainable banking products and services, such as green loans, eco-friendly investment options, and paperless banking solutions. By incorporating sustainable practices into our operations, we aim to contribute to a greener future while providing innovative banking solutions to our customers.</p>
     </div>
     {/* 3 */}
-    <div className='px-[1.5rem] ml-[3rem] pt-8'>
+    <div className='px-[1.5rem] lg:ml-[3rem] pt-8'>
     <img src={Image7} alt='pix'/>
       <h1 style={{color:'var(--absolute-white, #FFF)', fontFamily:'lexend'}} className='text-lg lg:text-2xl, pt-8'>YourBank Partners with Local Nonprofit to Support Financial Education Initiatives</h1>
       <div style={{padding:'12px 20px', alignItems:'center', gap:'10px', paddingTop:'2rem', display:'flex' }}>
