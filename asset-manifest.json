@@ -1,18 +1,25 @@
 {
   "files": {
-    "main.css": "/Bank-Website/static/css/main.824b62fc.css",
-    "main.js": "/Bank-Website/static/js/main.8abe2b61.js",
+    "main.css": "/Bank-Website/static/css/main.4d7e26e2.css",
+    "main.js": "/Bank-Website/static/js/main.8627fa1b.js",
     "static/js/787.304dae88.chunk.js": "/Bank-Website/static/js/787.304dae88.chunk.js",
     "static/media/Image.png": "/Bank-Website/static/media/Image.691118b27e4c44503020.png",
+    "static/media/Image Container-2.png": "/Bank-Website/static/media/Image Container-2.eed80f67b84382ce136f.png",
+    "static/media/Image-2.png": "/Bank-Website/static/media/Image-2.19c984c5fc929da798ce.png",
+    "static/media/Image-4.png": "/Bank-Website/static/media/Image-4.693c66459ff727aa4be3.png",
+    "static/media/Image-3.png": "/Bank-Website/static/media/Image-3.e9a0d1bdf4365af74981.png",
+    "static/media/Image-8.png": "/Bank-Website/static/media/Image-8.4c7abb4d5d78331d8c42.png",
+    "static/media/Image-7.png": "/Bank-Website/static/media/Image-7.fad5f33b13f9d3b16be9.png",
+    "static/media/Image-6.png": "/Bank-Website/static/media/Image-6.7a8c7cc91f9dde1799ca.png",
     "static/media/Container.png": "/Bank-Website/static/media/Container.3aac7fb0e18447ecf995.png",
     "static/media/Abstract Design.png": "/Bank-Website/static/media/Abstract Design.f84a83a58f9257f1602b.png",
     "index.html": "/Bank-Website/index.html",
-    "main.824b62fc.css.map": "/Bank-Website/static/css/main.824b62fc.css.map",
-    "main.8abe2b61.js.map": "/Bank-Website/static/js/main.8abe2b61.js.map",
+    "main.4d7e26e2.css.map": "/Bank-Website/static/css/main.4d7e26e2.css.map",
+    "main.8627fa1b.js.map": "/Bank-Website/static/js/main.8627fa1b.js.map",
     "787.304dae88.chunk.js.map": "/Bank-Website/static/js/787.304dae88.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.824b62fc.css",
-    "static/js/main.8abe2b61.js"
+    "static/css/main.4d7e26e2.css",
+    "static/js/main.8627fa1b.js"
   ]
 }
