@@ -420,20 +420,8 @@ const Careers = () => {
     </div>
   </div>
 </div>
-
-      </div>
-     
-
-
-
-
-  
-
-
-
-
-
-    </div>
+</div>
+</div>
     // end of code
   )
 }
