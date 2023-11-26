@@ -28,7 +28,6 @@ const Navbar = () => {
               Home
             </Link>
           </li>
-
           <li>
             <Link to="/bank/careers" className='font-lexend hover:underline'>
               Careers
