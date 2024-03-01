@@ -62,7 +62,7 @@ const Home = () => {
 
       {/* our products */}
       {/* second section */}
-      <p className="font-semibold block text-white text-[38px] text-center lg:text-start px-10">
+      <p className="font-semibold block text-white text-[38px] text-center">
         Our{" "}
         <span
           style={{ color: "var(--green-60, #CAFF33)" }}
